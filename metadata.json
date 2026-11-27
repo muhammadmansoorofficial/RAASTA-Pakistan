@@ -1,0 +1,6 @@
+{
+  "name": "RAASTA Pakistan",
+  "description": "Pakistani public assistance platform for scholarships, government jobs, internships, free courses, document guides, daily calculators, civic problem reporting, and multilingual AI guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
