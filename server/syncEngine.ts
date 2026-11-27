@@ -3,9 +3,10 @@ import type {
   AuditLogEntry,
   MonitoredSource,
   NationalUpdate,
+  Opportunity,
   SyncEngineStats,
 } from '../src/types.ts';
-import { readDb, writeDb, type DatabaseSchema } from './db.ts';
+import { persistSyncBatch, readDb, saveSyncEngineState, type DatabaseSchema } from './db.ts';
 import { fetchSourceAnnouncements, type RawDiscoveredItem } from './sourceFetcher.ts';
 import { isDeadlineExpired, processDiscoveredAnnouncement } from './updateProcessor.ts';
 
@@ -13,25 +14,43 @@ let syncLock = false;
 let schedulerTimer: ReturnType<typeof setInterval> | null = null;
 let startupTimer: ReturnType<typeof setTimeout> | null = null;
 
-export function appendAuditLog(
-  db: DatabaseSchema,
+export function buildAuditLog(
   entry: Omit<AuditLogEntry, 'id' | 'timestamp'>,
-): void {
-  db.syncAuditLogs.unshift({
+): AuditLogEntry {
+  return {
     id: `aud-${crypto.randomBytes(4).toString('hex')}`,
     timestamp: new Date().toISOString(),
     ...entry,
-  });
+  };
+}
+
+export function appendAuditLog(
+  db: DatabaseSchema,
+  entry: Omit<AuditLogEntry, 'id' | 'timestamp'>,
+): AuditLogEntry {
+  const full = buildAuditLog(entry);
+  db.syncAuditLogs.unshift(full);
   if (db.syncAuditLogs.length > 200) {
     db.syncAuditLogs = db.syncAuditLogs.slice(0, 200);
   }
+  return full;
+}
+
+export interface SweepResult {
+  expiredCount: number;
+  expiredUpdates: NationalUpdate[];
+  expiredOpportunities: Opportunity[];
+  logs: AuditLogEntry[];
 }
 
 export function sweepExpiredItems(
   db: DatabaseSchema,
   actor: AuditLogEntry['actor'] = 'scheduler',
-): number {
+): SweepResult {
   let expiredCount = 0;
+  const expiredUpdates: NationalUpdate[] = [];
+  const expiredOpportunities: Opportunity[] = [];
+  const logs: AuditLogEntry[] = [];
   const now = new Date();
   const today = now.toISOString().slice(0, 10);
 
@@ -45,12 +64,15 @@ export function sweepExpiredItems(
       item.status = 'expired';
       item.lastVerifiedDate = today;
       expiredCount += 1;
-      appendAuditLog(db, {
-        actor,
-        action: 'marked_expired',
-        targetId: item.id,
-        detail: `Marked update "${item.titleEn}" expired (deadline ${item.deadline} passed).`,
-      });
+      expiredUpdates.push(item);
+      logs.push(
+        appendAuditLog(db, {
+          actor,
+          action: 'marked_expired',
+          targetId: item.id,
+          detail: `Marked update "${item.titleEn}" expired (deadline ${item.deadline} passed).`,
+        }),
+      );
     }
   }
 
@@ -59,16 +81,18 @@ export function sweepExpiredItems(
       opp.status = 'expired';
       opp.lastVerifiedDate = today;
       expiredCount += 1;
+      expiredOpportunities.push(opp);
     }
   }
 
-  return expiredCount;
+  return { expiredCount, expiredUpdates, expiredOpportunities, logs };
 }
 
 export interface IngestResult {
   outcome: 'created' | 'duplicate' | 'deadline_updated' | 'blocked';
   update?: NationalUpdate;
   reason?: string;
+  logs: AuditLogEntry[];
 }
 
 export async function ingestRawItem(
@@ -80,13 +104,13 @@ export async function ingestRawItem(
 ): Promise<IngestResult> {
   const { candidate, blockedReason } = await processDiscoveredAnnouncement(rawItem, source, isDemo);
   if (blockedReason) {
-    appendAuditLog(db, {
+    const log = appendAuditLog(db, {
       actor,
       action: 'source_skipped',
       targetId: source.id,
       detail: blockedReason,
     });
-    return { outcome: 'blocked', reason: blockedReason };
+    return { outcome: 'blocked', reason: blockedReason, logs: [log] };
   }
 
   // Check exact hash or canonical URL+title match
@@ -117,23 +141,28 @@ export async function ingestRawItem(
       } else if (existing.status === 'expired') {
         existing.status = candidate.trustedSource ? 'auto_published' : 'pending_verification';
       }
-      appendAuditLog(db, {
+      const log = appendAuditLog(db, {
         actor,
         action: 'deadline_updated',
         targetId: existing.id,
         detail: `Deadline updated for "${existing.titleEn}": ${prevDeadline} -> ${candidate.deadline}.`,
       });
-      return { outcome: 'deadline_updated', update: existing };
+      return { outcome: 'deadline_updated', update: existing, logs: [log] };
     }
 
     db.syncEngineState.duplicatesSkippedCount += 1;
-    appendAuditLog(db, {
+    const log = appendAuditLog(db, {
       actor,
       action: 'duplicate_skipped',
       targetId: existing.id,
       detail: `Skipped duplicate announcement "${candidate.titleEn}" from ${source.institutionCode}.`,
     });
-    return { outcome: 'duplicate', update: existing, reason: 'Duplicate announcement skipped.' };
+    return {
+      outcome: 'duplicate',
+      update: existing,
+      reason: 'Duplicate announcement skipped.',
+      logs: [log],
+    };
   }
 
   const created: NationalUpdate = {
@@ -143,23 +172,25 @@ export async function ingestRawItem(
 
   db.nationalUpdates.unshift(created);
   db.syncEngineState.newAnnouncementsDetected += 1;
+
+  let log: AuditLogEntry;
   if (created.status === 'auto_published') {
     db.syncEngineState.autoPublishedCount += 1;
-    appendAuditLog(db, {
+    log = appendAuditLog(db, {
       actor,
       action: 'auto_published',
       targetId: created.id,
       detail: `Auto-published "${created.titleEn}" (${created.category}, ${created.province}) via ${created.processingMode}.`,
     });
   } else if (created.status === 'expired') {
-    appendAuditLog(db, {
+    log = appendAuditLog(db, {
       actor,
       action: 'marked_expired',
       targetId: created.id,
       detail: `Discovered already-expired notice "${created.titleEn}" (deadline ${created.deadline}).`,
     });
   } else {
-    appendAuditLog(db, {
+    log = appendAuditLog(db, {
       actor,
       action: 'queued_for_review',
       targetId: created.id,
@@ -167,14 +198,14 @@ export async function ingestRawItem(
     });
   }
 
-  return { outcome: 'created', update: created };
+  return { outcome: 'created', update: created, logs: [log] };
 }
 
 export async function runSyncCycle(
   trigger: 'scheduler' | 'manual_sync',
 ): Promise<{ ok: boolean; summary: string; state: DatabaseSchema['syncEngineState'] }> {
   if (syncLock) {
-    const db = readDb();
+    const db = await readDb();
     return {
       ok: false,
       summary: 'A synchronization cycle is already in progress.',
@@ -186,12 +217,19 @@ export async function runSyncCycle(
   const startIso = new Date().toISOString();
 
   try {
-    const db = readDb();
+    const db = await readDb();
     db.syncEngineState.isSyncing = true;
     db.syncEngineState.lastSyncStartedAt = startIso;
-    writeDb(db);
+    await saveSyncEngineState(db.syncEngineState);
 
-    const expiredSwept = sweepExpiredItems(db, trigger);
+    const sweep = sweepExpiredItems(db, trigger);
+    const touchedUpdates = new Map<string, NationalUpdate>();
+    for (const u of sweep.expiredUpdates) {
+      touchedUpdates.set(u.id, u);
+    }
+    const newLogs: AuditLogEntry[] = [...sweep.logs];
+    const touchedSources: MonitoredSource[] = [];
+
     const enabledSources = db.monitoredSources.filter((s) => s.enabled);
 
     let sourcesChecked = 0;
@@ -219,6 +257,7 @@ export async function runSyncCycle(
         source.lastCheckedAt = checkedIso;
         source.lastStatus = outcome.status;
         source.lastError = outcome.error;
+        touchedSources.push(source);
 
         if (outcome.status === 'ok') {
           sourcesWorking += 1;
@@ -227,33 +266,41 @@ export async function runSyncCycle(
 
           for (const rawItem of outcome.items) {
             const res = await ingestRawItem(db, rawItem, source, trigger, false);
+            newLogs.push(...res.logs);
+            if (res.update && (res.outcome === 'created' || res.outcome === 'deadline_updated')) {
+              touchedUpdates.set(res.update.id, res.update);
+            }
             if (res.outcome === 'created') cycleNew += 1;
             else if (res.outcome === 'duplicate') cycleDupes += 1;
             else if (res.outcome === 'deadline_updated') cycleUpdated += 1;
           }
         } else if (outcome.status === 'skipped') {
           sourcesSkipped += 1;
-          appendAuditLog(db, {
-            actor: trigger,
-            action: 'source_skipped',
-            targetId: source.id,
-            detail: `${source.institutionCode}: ${outcome.error || 'Access restricted'}`,
-          });
+          newLogs.push(
+            appendAuditLog(db, {
+              actor: trigger,
+              action: 'source_skipped',
+              targetId: source.id,
+              detail: `${source.institutionCode}: ${outcome.error || 'Access restricted'}`,
+            }),
+          );
         } else {
           sourcesErrored += 1;
-          appendAuditLog(db, {
-            actor: trigger,
-            action: 'source_error',
-            targetId: source.id,
-            detail: `${source.institutionCode}: ${outcome.error || 'Fetch failed'}`,
-          });
+          newLogs.push(
+            appendAuditLog(db, {
+              actor: trigger,
+              action: 'source_error',
+              targetId: source.id,
+              detail: `${source.institutionCode}: ${outcome.error || 'Fetch failed'}`,
+            }),
+          );
         }
       }
     }
 
     const doneIso = new Date().toISOString();
     const intervalMs = Math.max(5, db.syncEngineState.intervalMinutes || 60) * 60 * 1000;
-    const summary = `Checked ${sourcesChecked} sources (${sourcesWorking} ok, ${sourcesSkipped} skipped, ${sourcesErrored} errors). New: ${cycleNew}, Updated: ${cycleUpdated}, Duplicates skipped: ${cycleDupes}, Expired marked: ${expiredSwept}.`;
+    const summary = `Checked ${sourcesChecked} sources (${sourcesWorking} ok, ${sourcesSkipped} skipped, ${sourcesErrored} errors). New: ${cycleNew}, Updated: ${cycleUpdated}, Duplicates skipped: ${cycleDupes}, Expired marked: ${sweep.expiredCount}.`;
 
     db.syncEngineState.isSyncing = false;
     db.syncEngineState.lastSuccessfulSyncAt = doneIso;
@@ -264,21 +311,30 @@ export async function runSyncCycle(
     db.syncEngineState.totalSyncRuns += 1;
     db.syncEngineState.lastRunSummary = summary;
 
-    appendAuditLog(db, {
-      actor: trigger,
-      action: 'sync_completed',
-      detail: summary,
+    newLogs.push(
+      appendAuditLog(db, {
+        actor: trigger,
+        action: 'sync_completed',
+        detail: summary,
+      }),
+    );
+
+    await persistSyncBatch({
+      sources: touchedSources,
+      updates: Array.from(touchedUpdates.values()),
+      expiredOpportunities: sweep.expiredOpportunities,
+      logs: newLogs,
+      state: db.syncEngineState,
     });
 
-    writeDb(db);
     return { ok: true, summary, state: db.syncEngineState };
   } finally {
     syncLock = false;
     try {
-      const latest = readDb();
+      const latest = await readDb();
       if (latest.syncEngineState.isSyncing) {
         latest.syncEngineState.isSyncing = false;
-        writeDb(latest);
+        await saveSyncEngineState(latest.syncEngineState);
       }
     } catch {
       // Ignore cleanup error
@@ -287,27 +343,41 @@ export async function runSyncCycle(
 }
 
 export function startSyncScheduler(): void {
+  // Serverless environments use Vercel Cron (/api/cron/sync) rather than in-process timers
+  if (process.env.VERCEL) return;
   if (schedulerTimer || startupTimer) return;
 
   // Run initial scheduled check 2.5 seconds after server startup (non-blocking)
   startupTimer = setTimeout(() => {
     startupTimer = null;
-    const db = readDb();
-    if (db.syncEngineState.schedulerEnabled) {
-      void runSyncCycle('scheduler');
-    }
+    void (async () => {
+      try {
+        const db = await readDb();
+        if (db.syncEngineState.schedulerEnabled) {
+          await runSyncCycle('scheduler');
+        }
+      } catch {
+        // Ignore startup check failure
+      }
+    })();
   }, 2500);
 
   // Check every 60 seconds whether the scheduled interval has elapsed
   schedulerTimer = setInterval(() => {
-    const db = readDb();
-    if (!db.syncEngineState.schedulerEnabled || syncLock) return;
-    const nextRun = db.syncEngineState.nextScheduledSyncAt
-      ? Date.parse(db.syncEngineState.nextScheduledSyncAt)
-      : 0;
-    if (!nextRun || Date.now() >= nextRun) {
-      void runSyncCycle('scheduler');
-    }
+    void (async () => {
+      try {
+        const db = await readDb();
+        if (!db.syncEngineState.schedulerEnabled || syncLock) return;
+        const nextRun = db.syncEngineState.nextScheduledSyncAt
+          ? Date.parse(db.syncEngineState.nextScheduledSyncAt)
+          : 0;
+        if (!nextRun || Date.now() >= nextRun) {
+          await runSyncCycle('scheduler');
+        }
+      } catch {
+        // Ignore periodic check failure
+      }
+    })();
   }, 60 * 1000);
 }
 
