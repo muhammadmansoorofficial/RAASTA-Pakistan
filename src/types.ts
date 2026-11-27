@@ -203,7 +203,7 @@ export interface NationalUpdate {
   discoveredAt: string; // ISO timestamp
   lastVerifiedDate: string; // YYYY-MM-DD
   status: UpdateVerificationStatus;
-  processingMode: 'groq_ai' | 'deterministic_fallback';
+  processingMode: 'rule_parser';
   validationWarnings: string[];
   trustedSource: boolean;
   isDemo: boolean;

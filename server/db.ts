@@ -812,7 +812,7 @@ export function readDb(): DatabaseSchema {
           ? parsed.monitoredSources
           : structuredClone(SEED_DATA.monitoredSources),
       nationalUpdates: Array.isArray(parsed.nationalUpdates)
-        ? parsed.nationalUpdates
+        ? parsed.nationalUpdates.map((u) => ({ ...u, processingMode: 'rule_parser' as const }))
         : structuredClone(SEED_DATA.nationalUpdates),
       notificationSubscriptions: Array.isArray(parsed.notificationSubscriptions)
         ? parsed.notificationSubscriptions

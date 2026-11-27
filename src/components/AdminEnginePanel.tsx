@@ -547,7 +547,7 @@ export const AdminEnginePanel: React.FC<AdminEnginePanelProps> = ({ token, onDat
                         {item.status.toUpperCase()}
                       </span>
                       <span aria-hidden="true">·</span>
-                      <span>{item.processingMode === 'groq_ai' ? 'Groq AI' : 'Rule Parser'}</span>
+                      <span>Rule Parser</span>
                       {item.isDemo && (
                         <>
                           <span aria-hidden="true">·</span>
@@ -700,7 +700,7 @@ export const AdminEnginePanel: React.FC<AdminEnginePanelProps> = ({ token, onDat
         </div>
       )}
 
-      {/* Sub-view 3: Announcement Ingestion & AI Validation Tester */}
+      {/* Sub-view 3: Announcement Ingestion & Validation Tester */}
       {subView === 'ingest' && (
         <form
           onSubmit={handleIngestSubmit}
@@ -711,7 +711,7 @@ export const AdminEnginePanel: React.FC<AdminEnginePanelProps> = ({ token, onDat
               Process Announcement Through National Update Pipeline
             </h3>
             <p className="text-xs text-slate-600 dark:text-slate-400">
-              Runs Groq AI extraction (or deterministic non-hallucinating fallback), duplicate hash check, deadline change detection, expiry check, and validation rules.
+              Runs deterministic rule-based extraction, duplicate hash check, deadline change detection, expiry check, and validation rules.
             </p>
           </div>
 

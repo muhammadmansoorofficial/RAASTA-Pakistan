@@ -744,11 +744,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:16.068Z",
+      "lastSuccessAt": "2026-11-27T08:33:16.068Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 7,
       "isDemo": true
     },
     {
@@ -763,10 +763,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:16.651Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "skipped",
+      "lastError": "HTTP 403: Portal restricted automated access or requires login (not bypassed).",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -782,10 +782,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:16.651Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "error",
+      "lastError": "fetch failed",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -801,10 +801,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:16.651Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "error",
+      "lastError": "fetch failed",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -820,11 +820,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:26.437Z",
+      "lastSuccessAt": "2026-11-27T08:33:26.437Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 10,
       "isDemo": true
     },
     {
@@ -839,10 +839,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:27.220Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "error",
+      "lastError": "Connection timed out (6.5s).",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -858,11 +858,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:27.220Z",
+      "lastSuccessAt": "2026-11-27T08:33:27.220Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 10,
       "isDemo": true
     },
     {
@@ -877,11 +877,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:27.961Z",
+      "lastSuccessAt": "2026-11-27T08:33:27.961Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 1,
       "isDemo": true
     },
     {
@@ -896,9 +896,9 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:32.628Z",
+      "lastSuccessAt": "2026-11-27T08:33:32.628Z",
+      "lastStatus": "ok",
       "lastError": null,
       "itemsDetected": 0,
       "isDemo": true
@@ -915,11 +915,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:32.628Z",
+      "lastSuccessAt": "2026-11-27T08:33:32.628Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 10,
       "isDemo": true
     },
     {
@@ -934,11 +934,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:33.376Z",
+      "lastSuccessAt": "2026-11-27T08:33:33.376Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 7,
       "isDemo": true
     },
     {
@@ -953,10 +953,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:33.881Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "error",
+      "lastError": "fetch failed",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -972,11 +972,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:44.371Z",
+      "lastSuccessAt": "2026-11-27T08:33:44.371Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 7,
       "isDemo": true
     },
     {
@@ -991,11 +991,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:44.889Z",
+      "lastSuccessAt": "2026-11-27T08:33:44.889Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 3,
       "isDemo": true
     },
     {
@@ -1010,10 +1010,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:45.112Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "error",
+      "lastError": "Connection timed out (6.5s).",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -1029,10 +1029,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:45.112Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "skipped",
+      "lastError": "Portal robots.txt disallows automated indexing (honoring policy).",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -1048,10 +1048,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:55.054Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "error",
+      "lastError": "Connection timed out (6.5s).",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -1067,10 +1067,10 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
+      "lastCheckedAt": "2026-11-27T08:33:55.054Z",
       "lastSuccessAt": null,
-      "lastStatus": "never",
-      "lastError": null,
+      "lastStatus": "skipped",
+      "lastError": "HTTP 403: Portal restricted automated access or requires login (not bypassed).",
       "itemsDetected": 0,
       "isDemo": true
     },
@@ -1086,11 +1086,11 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 60,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:55.054Z",
+      "lastSuccessAt": "2026-11-27T08:33:55.054Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 10,
       "isDemo": true
     },
     {
@@ -1105,15 +1105,2534 @@
       "trusted": true,
       "enabled": true,
       "checkIntervalMinutes": 120,
-      "lastCheckedAt": null,
-      "lastSuccessAt": null,
-      "lastStatus": "never",
+      "lastCheckedAt": "2026-11-27T08:33:55.933Z",
+      "lastSuccessAt": "2026-11-27T08:33:55.933Z",
+      "lastStatus": "ok",
       "lastError": null,
-      "itemsDetected": 0,
+      "itemsDetected": 5,
       "isDemo": true
     }
   ],
   "nationalUpdates": [
+    {
+      "id": "upd-e1b0e311",
+      "sourceId": "src-public-uni-sindh",
+      "sourceNameEn": "Public Universities Admissions (Sindh & Federal)",
+      "sourceNameUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق)",
+      "sourceUrl": "https://uok.edu.pk/",
+      "canonicalKey": "64fb71635ec5f2dfd0fbc179",
+      "contentHash": "bd2df7a45b1de20129b1f2a9",
+      "category": "university_admissions",
+      "province": "Sindh",
+      "city": "Karachi",
+      "titleEn": "UNIVERSITY OF KARACHI جامعہ کراچی • ESTD. 1951 DIAMOND JUBILEE 75 YEARS (1951–2026)",
+      "titleUr": "یونیورسٹی داخلہ: UNIVERSITY OF KARACHI جامعہ کراچی • ESTD. 1951 DIAMOND JUBILEE 75 YEARS (1951–2026)",
+      "summaryEn": "UNIVERSITY OF KARACHI جامعہ کراچی • ESTD. 1951 DIAMOND JUBILEE 75 YEARS (1951–2026)",
+      "summaryUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق) کی جانب سے یونیورسٹی داخلہ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Public Universities Admissions (Sindh & Federal) ki taraf se UNIVERSITY OF KARACHI جامعہ کراچی • ESTD. 1951 DIAMOND JUBILEE 75 YEARS (1951–2026) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:56.225Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-c178722d",
+      "sourceId": "src-public-uni-sindh",
+      "sourceNameEn": "Public Universities Admissions (Sindh & Federal)",
+      "sourceNameUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق)",
+      "sourceUrl": "https://uok.edu.pk/pg-admissions",
+      "canonicalKey": "bdd292a525c7ef92208f1cf8",
+      "contentHash": "92dab81ee13ad43da443d963",
+      "category": "university_admissions",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Postgraduate Admissions",
+      "titleUr": "یونیورسٹی داخلہ: Postgraduate Admissions",
+      "summaryEn": "Postgraduate Admissions",
+      "summaryUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق) کی جانب سے یونیورسٹی داخلہ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Public Universities Admissions (Sindh & Federal) ki taraf se Postgraduate Admissions ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:56.152Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-b4e450be",
+      "sourceId": "src-public-uni-sindh",
+      "sourceNameEn": "Public Universities Admissions (Sindh & Federal)",
+      "sourceNameUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق)",
+      "sourceUrl": "https://uok.edu.pk/convocation",
+      "canonicalKey": "0504e0bd3e4f57828f91e6c0",
+      "contentHash": "e74468b25355c57c08fd5655",
+      "category": "university_admissions",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Annual Convocation: Degree Verification & Registration Portal Open for Graduating Batches",
+      "titleUr": "یونیورسٹی داخلہ: Annual Convocation: Degree Verification & Registration Portal Open for Graduating Batches",
+      "summaryEn": "Annual Convocation: Degree Verification & Registration Portal Open for Graduating Batches",
+      "summaryUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق) کی جانب سے یونیورسٹی داخلہ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Public Universities Admissions (Sindh & Federal) ki taraf se Annual Convocation: Degree Verification & Registration Portal Open for Graduating Batches ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:56.082Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-f9675ed1",
+      "sourceId": "src-public-uni-sindh",
+      "sourceNameEn": "Public Universities Admissions (Sindh & Federal)",
+      "sourceNameUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق)",
+      "sourceUrl": "https://uok.edu.pk/semester-fee",
+      "canonicalKey": "a4317c00fa482423d1396237",
+      "contentHash": "85a325caac7998a006b73fda",
+      "category": "university_admissions",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Notice: Postgraduate Research Grant Applications & Semester Fee Schedule Announced",
+      "titleUr": "یونیورسٹی داخلہ: Notice: Postgraduate Research Grant Applications & Semester Fee Schedule Announced",
+      "summaryEn": "Notice: Postgraduate Research Grant Applications & Semester Fee Schedule Announced",
+      "summaryUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق) کی جانب سے یونیورسٹی داخلہ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Public Universities Admissions (Sindh & Federal) ki taraf se Notice: Postgraduate Research Grant Applications & Semester Fee Schedule Announced ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:56.003Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-a2488c17",
+      "sourceId": "src-public-uni-sindh",
+      "sourceNameEn": "Public Universities Admissions (Sindh & Federal)",
+      "sourceNameUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق)",
+      "sourceUrl": "https://uok.edu.pk/admissions",
+      "canonicalKey": "9f0d1ab155853e168e371f12",
+      "contentHash": "aae5809648fabea985dc221a",
+      "category": "university_admissions",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Admissions 2027: Online Applications Open for Undergraduate & Postgraduate Programs",
+      "titleUr": "یونیورسٹی داخلہ: Admissions 2027: Online Applications Open for Undergraduate & Postgraduate Programs",
+      "summaryEn": "Admissions 2027: Online Applications Open for Undergraduate & Postgraduate Programs",
+      "summaryUr": "سرکاری جامعات داخلہ پورٹل (سندھ و وفاق) کی جانب سے یونیورسٹی داخلہ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Public Universities Admissions (Sindh & Federal) ki taraf se Admissions 2027: Online Applications Open for Undergraduate & Postgraduate Programs ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.933Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-252a1b89",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://www.sindh.gov.pk/news/sindh-govt-partners-with-google-tech-valley-to-provide-over-30000-digital-skills-scholarships",
+      "canonicalKey": "831e661db93a2a6cd5c2c76b",
+      "contentHash": "45993f21891305935d3bf859",
+      "category": "citizen_services",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Sindh govt partners with Google & Tech Valley to provide over 30,000 digital skills scholarships:",
+      "titleUr": "شہری خدمت: Sindh govt partners with Google & Tech Valley to provide over 30,000 digital skills scholarships:",
+      "summaryEn": "Sindh govt partners with Google & Tech Valley to provide over 30,000 digital skills scholarships:",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے شہری خدمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se Sindh govt partners with Google & Tech Valley to provide over 30,000 digital skills scholarships: ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.860Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-e21394c6",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://www.sindh.gov.pk/news/sindh-it-company-career-opportunities",
+      "canonicalKey": "1450da0198480401b420001e",
+      "contentHash": "dc4eb6c5339413803894e0eb",
+      "category": "citizen_services",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Sindh IT Company Career Opportunities",
+      "titleUr": "شہری خدمت: Sindh IT Company Career Opportunities",
+      "summaryEn": "Sindh IT Company Career Opportunities",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے شہری خدمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se Sindh IT Company Career Opportunities ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.789Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-b0b612bb",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://www.sindh.gov.pk/news/cm-sindh-witnesses-mous-signing-for-google-digital-sahafat-scholarships-with-tech-valley-sitd-and-info-dept-at-cm-house",
+      "canonicalKey": "2a3d05c4b01d01c7014bbf55",
+      "contentHash": "736776c367709d1e9cec764d",
+      "category": "citizen_services",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "CM Sindh witnesses MoUs signing for Google Digital Sahafat Scholarships with Tech Valley, S&ITD, and Info Dept at CM House.",
+      "titleUr": "شہری خدمت: CM Sindh witnesses MoUs signing for Google Digital Sahafat Scholarships with Tech Valley, S&ITD, and Info Dept at CM House.",
+      "summaryEn": "CM Sindh witnesses MoUs signing for Google Digital Sahafat Scholarships with Tech Valley, S&ITD, and Info Dept at CM House.",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے شہری خدمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se CM Sindh witnesses MoUs signing for Google Digital Sahafat Scholarships with Tech Valley, S&ITD, and Info Dept at CM House. ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.715Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-57e63e84",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://www.sindh.gov.pk/news/govt-of-sindh-launches-free-technical-courses-for-youth-registration-open-till-sept-20",
+      "canonicalKey": "e0213fd4f2d66677b977d709",
+      "contentHash": "5b2ebaf71a262507631b811c",
+      "category": "citizen_services",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Govt of Sindh Launches Free Technical Courses for Youth – Registration Open Till Sept 20",
+      "titleUr": "شہری خدمت: Govt of Sindh Launches Free Technical Courses for Youth – Registration Open Till Sept 20",
+      "summaryEn": "Govt of Sindh Launches Free Technical Courses for Youth – Registration Open Till Sept 20",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے شہری خدمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se Govt of Sindh Launches Free Technical Courses for Youth – Registration Open Till Sept 20 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.510Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-dff7143c",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://www.sindh.gov.pk/news/cm-syed-murad-ali-shah-inaugurates-sindh-job-portal-at-cm-house-karachi",
+      "canonicalKey": "3f7cfabd558814431633d112",
+      "contentHash": "e1be1e7755c3d79d47cf98ac",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Karachi",
+      "titleEn": "CM Syed Murad Ali Shah Inaugurates Sindh Job Portal at CM House Karachi",
+      "titleUr": "سرکاری ملازمت: CM Syed Murad Ali Shah Inaugurates Sindh Job Portal at CM House Karachi",
+      "summaryEn": "CM Syed Murad Ali Shah Inaugurates Sindh Job Portal at CM House Karachi",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se CM Syed Murad Ali Shah Inaugurates Sindh Job Portal at CM House Karachi ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.440Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-b4d955f4",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://www.sindh.gov.pk/news/the-first-advertisement-for-junior-clerk-jobs-has-been-published-on-the-sindh-job-portal",
+      "canonicalKey": "03812246e36e43a2232f38f1",
+      "contentHash": "260720dd02f701aac1f7b93f",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "The first advertisement for Junior Clerk jobs has been published on the Sindh Job Portal.",
+      "titleUr": "سرکاری ملازمت: The first advertisement for Junior Clerk jobs has been published on the Sindh Job Portal.",
+      "summaryEn": "The first advertisement for Junior Clerk jobs has been published on the Sindh Job Portal.",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se The first advertisement for Junior Clerk jobs has been published on the Sindh Job Portal. ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Bachelor degree / Graduation criteria mentioned."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.369Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-ad50e58f",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://tmrwing.sindh.gov.pk/",
+      "canonicalKey": "9343fbba165de3f7d3686191",
+      "contentHash": "3975d782133ae48dad4bc4b8",
+      "category": "citizen_services",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Training Management & Research (TMR) Wing, SGA&CD",
+      "titleUr": "شہری خدمت: Training Management & Research (TMR) Wing, SGA&CD",
+      "summaryEn": "Training Management & Research (TMR) Wing, SGA&CD",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے شہری خدمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se Training Management & Research (TMR) Wing, SGA&CD ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.297Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-ca869e58",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://stevta.gos.pk/",
+      "canonicalKey": "8ef5b616a61a867226e1387f",
+      "contentHash": "f3d4f911f06736c394458a03",
+      "category": "free_courses",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Sindh Technical Education and Vocational Training Authority",
+      "titleUr": "مفت کورس: Sindh Technical Education and Vocational Training Authority",
+      "summaryEn": "Sindh Technical Education and Vocational Training Authority",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se Sindh Technical Education and Vocational Training Authority ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.223Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-db284b28",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://rtw.sindh.gov.pk/",
+      "canonicalKey": "e1db983954722a3bd18f65f9",
+      "contentHash": "b54a41189f1bebcfd299367e",
+      "category": "citizen_services",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Research & Training Wing",
+      "titleUr": "شہری خدمت: Research & Training Wing",
+      "summaryEn": "Research & Training Wing",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے شہری خدمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se Research & Training Wing ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.140Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-b583055e",
+      "sourceId": "src-sindh-gov",
+      "sourceNameEn": "Government of Sindh Citizen Portal",
+      "sourceNameUr": "حکومتِ سندھ شہری پورٹل",
+      "sourceUrl": "https://nilat.sindh.gov.pk/",
+      "canonicalKey": "77c693598d642f98ee64f723",
+      "contentHash": "5e59f35170052123519f6d8f",
+      "category": "citizen_services",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "National Institute of Labour Administration Training (NILAT)",
+      "titleUr": "شہری خدمت: National Institute of Labour Administration Training (NILAT)",
+      "summaryEn": "National Institute of Labour Administration Training (NILAT)",
+      "summaryUr": "حکومتِ سندھ شہری پورٹل کی جانب سے شہری خدمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Government of Sindh Citizen Portal ki taraf se National Institute of Labour Administration Training (NILAT) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:55.054Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-0bd9051f",
+      "sourceId": "src-mod",
+      "sourceNameEn": "Ministry of Defence Recruitment Notices",
+      "sourceNameUr": "وزارتِ دفاع بھرتی اعلانات",
+      "sourceUrl": "https://mod.gov.pk/NewsDetail/MzRkYmFkY2ItMDM2NC00NTNmLWE0ZmQtOGU1YmFmMjVkYmVi",
+      "canonicalKey": "547c6d88ecdb8251ba78b7de",
+      "contentHash": "0c75dffb639c30cc77a08d34",
+      "category": "armed_forces",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "The Ambassador of the Islamic Republic of Iran H.E. Dr. Reza Amiri Moghaddam called on the Defence Minister Khawaja Muhammad Asif on 20th January, 2026",
+      "titleUr": "فوج / نیوی / ایئر فورس بھرتی: The Ambassador of the Islamic Republic of Iran H.E. Dr. Reza Amiri Moghaddam called on the Defence Minister Khawaja Muhammad Asif on 20th January, 2026",
+      "summaryEn": "The Ambassador of the Islamic Republic of Iran H.E. Dr. Reza Amiri Moghaddam called on the Defence Minister Khawaja Muhammad Asif on 20th January, 2026",
+      "summaryUr": "وزارتِ دفاع بھرتی اعلانات کی جانب سے فوج / نیوی / ایئر فورس بھرتی سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Defence Recruitment Notices ki taraf se The Ambassador of the Islamic Republic of Iran H.E. Dr. Reza Amiri Moghaddam called on the Defence Minister Khawaja Muhammad Asif on 20th January, 2026 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:45.036Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-3da41819",
+      "sourceId": "src-mod",
+      "sourceNameEn": "Ministry of Defence Recruitment Notices",
+      "sourceNameUr": "وزارتِ دفاع بھرتی اعلانات",
+      "sourceUrl": "https://mod.gov.pk/NewsDetail/NGRkODczY2EtOTVhOC00ZDc3LWJlM2MtNjQxMzBlMDYyMTNk",
+      "canonicalKey": "d80d31c150c5ea9ed0c61b3d",
+      "contentHash": "05eebce0d379bb702d955281",
+      "category": "armed_forces",
+      "province": "Federal",
+      "city": "Islamabad",
+      "titleEn": "Ambassadors of the Association of Southeast Asian Nations (ASEAN) called on Defence Minister Khawaja Muhammad Asif in Islamabad on 21st January, 2026",
+      "titleUr": "فوج / نیوی / ایئر فورس بھرتی: Ambassadors of the Association of Southeast Asian Nations (ASEAN) called on Defence Minister Khawaja Muhammad Asif in Islamabad on 21st January, 2026",
+      "summaryEn": "Ambassadors of the Association of Southeast Asian Nations (ASEAN) called on Defence Minister Khawaja Muhammad Asif in Islamabad on 21st January, 2026",
+      "summaryUr": "وزارتِ دفاع بھرتی اعلانات کی جانب سے فوج / نیوی / ایئر فورس بھرتی سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Defence Recruitment Notices ki taraf se Ambassadors of the Association of Southeast Asian Nations (ASEAN) called on Defence Minister Khawaja Muhammad Asif in Islamabad on 21st January, 2026 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.966Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-4f3f7611",
+      "sourceId": "src-mod",
+      "sourceNameEn": "Ministry of Defence Recruitment Notices",
+      "sourceNameUr": "وزارتِ دفاع بھرتی اعلانات",
+      "sourceUrl": "https://mod.gov.pk/NewsDetail/MGU1OWVjNWItNGRkOS00ZWQ5LWFkNzktNmYyNjM5MTZiZTIy",
+      "canonicalKey": "05ff23c6798b9850976c0f56",
+      "contentHash": "587d112589c49068af2dfaaa",
+      "category": "gov_jobs",
+      "province": "Balochistan",
+      "city": "Balochistan Districts",
+      "titleEn": "INTERVIEW SCHEDULE: Recruitment against Vacant Posts Reserved for Balochistan Quota–Ministry of Defence (Defence Division)",
+      "titleUr": "سرکاری ملازمت: INTERVIEW SCHEDULE: Recruitment against Vacant Posts Reserved for Balochistan Quota–Ministry of Defence (Defence Division)",
+      "summaryEn": "INTERVIEW SCHEDULE: Recruitment against Vacant Posts Reserved for Balochistan Quota–Ministry of Defence (Defence Division)",
+      "summaryUr": "وزارتِ دفاع بھرتی اعلانات کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Defence Recruitment Notices ki taraf se INTERVIEW SCHEDULE: Recruitment against Vacant Posts Reserved for Balochistan Quota–Ministry of Defence (Defence Division) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.889Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-d321fdf0",
+      "sourceId": "src-mofept",
+      "sourceNameEn": "Ministry of Federal Education & Professional Training",
+      "sourceNameUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت",
+      "sourceUrl": "https://navttc.gov.pk/",
+      "canonicalKey": "ed0242bb34817cb09de93e8e",
+      "contentHash": "7237edf0f5659d2c922683c5",
+      "category": "free_courses",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "National Vocational and Technical Training Commission",
+      "titleUr": "مفت کورس: National Vocational and Technical Training Commission",
+      "summaryEn": "National Vocational and Technical Training Commission",
+      "summaryUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Federal Education & Professional Training ki taraf se National Vocational and Technical Training Commission ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.821Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-555e4a47",
+      "sourceId": "src-mofept",
+      "sourceNameEn": "Ministry of Federal Education & Professional Training",
+      "sourceNameUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت",
+      "sourceUrl": "https://hec.gov.pk/english/pages/home.aspx",
+      "canonicalKey": "affeaf4470da9bf2b83bc639",
+      "contentHash": "4ebbd3a5e7be65f628298ff0",
+      "category": "scholarships",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "Higher Education Commission",
+      "titleUr": "اسکالرشپ: Higher Education Commission",
+      "summaryEn": "Higher Education Commission",
+      "summaryUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت کی جانب سے اسکالرشپ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Federal Education & Professional Training ki taraf se Higher Education Commission ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.751Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-41b62d5d",
+      "sourceId": "src-mofept",
+      "sourceNameEn": "Ministry of Federal Education & Professional Training",
+      "sourceNameUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت",
+      "sourceUrl": "https://mofept.gov.pk/JobDetail/Zjc2NmQwOWEtZmRlZi00YTljLWJhNzktOTdmZmI2OTNlOWRi",
+      "canonicalKey": "549a4f886f57b943af94f738",
+      "contentHash": "8320068601f88cbfbfcfa571",
+      "category": "scholarships",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "Vacancy Announcement of DG-PIE",
+      "titleUr": "اسکالرشپ: Vacancy Announcement of DG-PIE",
+      "summaryEn": "Vacancy Announcement of DG-PIE",
+      "summaryUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت کی جانب سے اسکالرشپ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Federal Education & Professional Training ki taraf se Vacancy Announcement of DG-PIE ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.680Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-08f4a108",
+      "sourceId": "src-mofept",
+      "sourceNameEn": "Ministry of Federal Education & Professional Training",
+      "sourceNameUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت",
+      "sourceUrl": "https://mofept.gov.pk/TenderDetail/Y2MwM2FjZTEtYTU3Zi00Njc4LWFjNWUtM2QyOTc0MDBmODlh",
+      "canonicalKey": "43fd6d3ffcbae5118f040a82",
+      "contentHash": "13505b9a75a56a671e2c65c5",
+      "category": "scholarships",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "TERMS OF REFERENCE (ToR) Young Professional – Education/Training",
+      "titleUr": "اسکالرشپ: TERMS OF REFERENCE (ToR) Young Professional – Education/Training",
+      "summaryEn": "TERMS OF REFERENCE (ToR) Young Professional – Education/Training",
+      "summaryUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت کی جانب سے اسکالرشپ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Federal Education & Professional Training ki taraf se TERMS OF REFERENCE (ToR) Young Professional – Education/Training ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.609Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-1c04c940",
+      "sourceId": "src-mofept",
+      "sourceNameEn": "Ministry of Federal Education & Professional Training",
+      "sourceNameUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت",
+      "sourceUrl": "https://www.facebook.com/mfept/",
+      "canonicalKey": "7f9f6e17182bdc931b688b81",
+      "contentHash": "8d1b5937954221c6c94064c1",
+      "category": "scholarships",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "Ministry of Federal Education and Professional Training Pakistan",
+      "titleUr": "اسکالرشپ: Ministry of Federal Education and Professional Training Pakistan",
+      "summaryEn": "Ministry of Federal Education and Professional Training Pakistan",
+      "summaryUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت کی جانب سے اسکالرشپ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Federal Education & Professional Training ki taraf se Ministry of Federal Education and Professional Training Pakistan ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.537Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-81a06110",
+      "sourceId": "src-mofept",
+      "sourceNameEn": "Ministry of Federal Education & Professional Training",
+      "sourceNameUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت",
+      "sourceUrl": "https://mofept.gov.pk/NewsDetail/OWIxNGU4OWMtZjMxYS00NWMxLWI4MmUtN2FlNzkxMTA5ZTdi",
+      "canonicalKey": "1cc696d5f8d7d0745e09b71a",
+      "contentHash": "94fe3b4e0d2c22c0264386a6",
+      "category": "scholarships",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "Message from the Federal Secretary on World Teachers's Day 2026",
+      "titleUr": "اسکالرشپ: Message from the Federal Secretary on World Teachers's Day 2026",
+      "summaryEn": "Message from the Federal Secretary on World Teachers's Day 2026",
+      "summaryUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت کی جانب سے اسکالرشپ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Federal Education & Professional Training ki taraf se Message from the Federal Secretary on World Teachers's Day 2026 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.454Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-b9e2756d",
+      "sourceId": "src-mofept",
+      "sourceNameEn": "Ministry of Federal Education & Professional Training",
+      "sourceNameUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت",
+      "sourceUrl": "https://mofept.gov.pk/SiteImage/Misc/files/Draft%20EduPolicy2026.pdf",
+      "canonicalKey": "328d831a2b13469a6e3221ea",
+      "contentHash": "b0decbab02ef6a3e46a6179c",
+      "category": "scholarships",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "Draft Federal Education Policy &ndash; 2026",
+      "titleUr": "اسکالرشپ: Draft Federal Education Policy &ndash; 2026",
+      "summaryEn": "Draft Federal Education Policy &ndash; 2026",
+      "summaryUr": "وزارتِ وفاقی تعلیم و پیشہ ورانہ تربیت کی جانب سے اسکالرشپ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Ministry of Federal Education & Professional Training ki taraf se Draft Federal Education Policy &ndash; 2026 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:44.371Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-af590c29",
+      "sourceId": "src-bisp",
+      "sourceNameEn": "Benazir Income Support Programme (BISP)",
+      "sourceNameUr": "بینظیر انکم سپورٹ پروگرام (BISP)",
+      "sourceUrl": "https://www.bisp.gov.pk/SiteImage/Misc/files/BISPAsssessmentBrief.pdf",
+      "canonicalKey": "a48ab6f5637446e89883fde9",
+      "contentHash": "8cee73759f4258560db26a83",
+      "category": "gov_schemes",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Brief On Bisp Final Impact Asssessment Report",
+      "titleUr": "سرکاری اسکیم: Brief On Bisp Final Impact Asssessment Report",
+      "summaryEn": "Brief On Bisp Final Impact Asssessment Report",
+      "summaryUr": "بینظیر انکم سپورٹ پروگرام (BISP) کی جانب سے سرکاری اسکیم سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Benazir Income Support Programme (BISP) ki taraf se Brief On Bisp Final Impact Asssessment Report ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.804Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-b1a67e19",
+      "sourceId": "src-bisp",
+      "sourceNameEn": "Benazir Income Support Programme (BISP)",
+      "sourceNameUr": "بینظیر انکم سپورٹ پروگرام (BISP)",
+      "sourceUrl": "https://www.bisp.gov.pk/TenderDetail/YWE0ZjYzNmItMTM3ZC00NDg0LWEwNjUtNGQ2ODQ3NDc0ZTg1",
+      "canonicalKey": "ecc50867f49ae9dafd9a226a",
+      "contentHash": "db9832e96be99b310f0dbdc4",
+      "category": "gov_schemes",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries",
+      "titleUr": "سرکاری اسکیم: Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries",
+      "summaryEn": "Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries",
+      "summaryUr": "بینظیر انکم سپورٹ پروگرام (BISP) کی جانب سے سرکاری اسکیم سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Benazir Income Support Programme (BISP) ki taraf se Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.738Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-4ba305d2",
+      "sourceId": "src-bisp",
+      "sourceNameEn": "Benazir Income Support Programme (BISP)",
+      "sourceNameUr": "بینظیر انکم سپورٹ پروگرام (BISP)",
+      "sourceUrl": "https://www.bisp.gov.pk/TenderDetail/MTc2YjQyYWEtN2VhZS00ZWJmLTk3NjAtNjA4OGY5ZDMzOWJh",
+      "canonicalKey": "b6486dd806fbe37632797af3",
+      "contentHash": "6b33a62077c50359e3a6921e",
+      "category": "gov_schemes",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Addendum - 1 for \"Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries\"",
+      "titleUr": "سرکاری اسکیم: Addendum - 1 for \"Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries\"",
+      "summaryEn": "Addendum - 1 for \"Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries\"",
+      "summaryUr": "بینظیر انکم سپورٹ پروگرام (BISP) کی جانب سے سرکاری اسکیم سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Benazir Income Support Programme (BISP) ki taraf se Addendum - 1 for \"Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries\" ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.665Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-5f5c1dfd",
+      "sourceId": "src-bisp",
+      "sourceNameEn": "Benazir Income Support Programme (BISP)",
+      "sourceNameUr": "بینظیر انکم سپورٹ پروگرام (BISP)",
+      "sourceUrl": "https://www.bisp.gov.pk/NewsDetail/NjIwYWU4ZTMtMDJlMC00YmYwLWEyMjctODc2YjkzYzI3ZWRl",
+      "canonicalKey": "b5947b991affef6d2baba342",
+      "contentHash": "b17b0cd3178153f8ef9afac5",
+      "category": "gov_schemes",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "MINISTER FOR POVERTY ALLEVIATION AND SOCIAL SAFETY, SYED IMRAN AHMED SHAH, AND CHAIRPERSON BISP SENATOR RUBINA KHA...",
+      "titleUr": "سرکاری اسکیم: MINISTER FOR POVERTY ALLEVIATION AND SOCIAL SAFETY, SYED IMRAN AHMED SHAH, AND CHAIRPERSON BISP SENATOR RUBINA KHA...",
+      "summaryEn": "MINISTER FOR POVERTY ALLEVIATION AND SOCIAL SAFETY, SYED IMRAN AHMED SHAH, AND CHAIRPERSON BISP SENATOR RUBINA KHA...",
+      "summaryUr": "بینظیر انکم سپورٹ پروگرام (BISP) کی جانب سے سرکاری اسکیم سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Benazir Income Support Programme (BISP) ki taraf se MINISTER FOR POVERTY ALLEVIATION AND SOCIAL SAFETY, SYED IMRAN AHMED SHAH, AND CHAIRPERSON BISP SENATOR RUBINA KHA... ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.595Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-a1f20357",
+      "sourceId": "src-bisp",
+      "sourceNameEn": "Benazir Income Support Programme (BISP)",
+      "sourceNameUr": "بینظیر انکم سپورٹ پروگرام (BISP)",
+      "sourceUrl": "https://www.bisp.gov.pk/NewsDetail/ZjI4ZDBjZmQtYTViNS00MTI4LThjYzItNGE4ZjYyM2E2MzU4",
+      "canonicalKey": "b003f4c627766eb11999463b",
+      "contentHash": "e0c8541fed30d703bf277f6e",
+      "category": "gov_schemes",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Chairperson Benazir Income Support Programme (BISP) Senator Rubina Khalid and Secretary BISP Mr. Amer Ali Ahmad he...",
+      "titleUr": "سرکاری اسکیم: Chairperson Benazir Income Support Programme (BISP) Senator Rubina Khalid and Secretary BISP Mr. Amer Ali Ahmad he...",
+      "summaryEn": "Chairperson Benazir Income Support Programme (BISP) Senator Rubina Khalid and Secretary BISP Mr. Amer Ali Ahmad he...",
+      "summaryUr": "بینظیر انکم سپورٹ پروگرام (BISP) کی جانب سے سرکاری اسکیم سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Benazir Income Support Programme (BISP) ki taraf se Chairperson Benazir Income Support Programme (BISP) Senator Rubina Khalid and Secretary BISP Mr. Amer Ali Ahmad he... ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.522Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-173ca85a",
+      "sourceId": "src-bisp",
+      "sourceNameEn": "Benazir Income Support Programme (BISP)",
+      "sourceNameUr": "بینظیر انکم سپورٹ پروگرام (BISP)",
+      "sourceUrl": "https://www.bisp.gov.pk/NewsDetail/MjNjMGUyMmUtOGZiZC00YzBiLTk4NGQtOTNiNmQ3YjFiMGVh",
+      "canonicalKey": "d3580aae5828d1d053e092ab",
+      "contentHash": "e50d09207ec5e9f18cb460b0",
+      "category": "gov_schemes",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "BISP HOLDS CEREMONY TO MARK PAKISTAN'S 79TH INDEPENDENCE DAY...",
+      "titleUr": "سرکاری اسکیم: BISP HOLDS CEREMONY TO MARK PAKISTAN'S 79TH INDEPENDENCE DAY...",
+      "summaryEn": "BISP HOLDS CEREMONY TO MARK PAKISTAN'S 79TH INDEPENDENCE DAY...",
+      "summaryUr": "بینظیر انکم سپورٹ پروگرام (BISP) کی جانب سے سرکاری اسکیم سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Benazir Income Support Programme (BISP) ki taraf se BISP HOLDS CEREMONY TO MARK PAKISTAN'S 79TH INDEPENDENCE DAY... ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.453Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-7005e659",
+      "sourceId": "src-bisp",
+      "sourceNameEn": "Benazir Income Support Programme (BISP)",
+      "sourceNameUr": "بینظیر انکم سپورٹ پروگرام (BISP)",
+      "sourceUrl": "https://www.bisp.gov.pk/TopStoryDetail",
+      "canonicalKey": "bd56750b04bffc6d74cea31f",
+      "contentHash": "041f7182ebee84526a6b0adc",
+      "category": "gov_schemes",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "BISP MARKS WORLD BREASTFEEDING WEEK 2026, REAFFIRMS COMMITMENT TO MATERNAL AND CHILD NUTRITION",
+      "titleUr": "سرکاری اسکیم: BISP MARKS WORLD BREASTFEEDING WEEK 2026, REAFFIRMS COMMITMENT TO MATERNAL AND CHILD NUTRITION",
+      "summaryEn": "BISP MARKS WORLD BREASTFEEDING WEEK 2026, REAFFIRMS COMMITMENT TO MATERNAL AND CHILD NUTRITION",
+      "summaryUr": "بینظیر انکم سپورٹ پروگرام (BISP) کی جانب سے سرکاری اسکیم سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Benazir Income Support Programme (BISP) ki taraf se BISP MARKS WORLD BREASTFEEDING WEEK 2026, REAFFIRMS COMMITMENT TO MATERNAL AND CHILD NUTRITION ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.376Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "auto_published",
+      "processingMode": "rule_parser",
+      "validationWarnings": [],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-51a4b02d",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/downloads/",
+      "canonicalKey": "1bfbb0d708835f061cfae099",
+      "contentHash": "d22c89438a9633887c2a96c7",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Downloads Forms, guidelines &#038; documents",
+      "titleUr": "مفت کورس: Downloads Forms, guidelines &#038; documents",
+      "summaryEn": "Downloads Forms, guidelines &#038; documents",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Downloads Forms, guidelines &#038; documents ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.307Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-e3b3e14d",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/act-and-regulation/",
+      "canonicalKey": "4c883474c799d07e8754b357",
+      "contentHash": "732867be5aa74fac6c829da2",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Act & Regulation The NAVTTC Act &#038; regulations",
+      "titleUr": "مفت کورس: Act & Regulation The NAVTTC Act &#038; regulations",
+      "summaryEn": "Act & Regulation The NAVTTC Act &#038; regulations",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Act & Regulation The NAVTTC Act &#038; regulations ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.237Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-9f304acb",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/notifications/",
+      "canonicalKey": "553865f76671d4739a36ad60",
+      "contentHash": "d3c646a2f8ad6ee3b066ed01",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Notifications Official notifications",
+      "titleUr": "مفت کورس: Notifications Official notifications",
+      "summaryEn": "Notifications Official notifications",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Notifications Official notifications ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.158Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-a9b025e9",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/notices/",
+      "canonicalKey": "361dc600098d8092e1bfb5c0",
+      "contentHash": "54b856eb107ea91012fa723f",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Notices & Tenders Latest tenders &#038; notices",
+      "titleUr": "مفت کورس: Notices & Tenders Latest tenders &#038; notices",
+      "summaryEn": "Notices & Tenders Latest tenders &#038; notices",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Notices & Tenders Latest tenders &#038; notices ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.086Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-cfea4dee",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/wing/curriculum-wing/",
+      "canonicalKey": "2cfd84108563f5f3ca98110f",
+      "contentHash": "c0f1e47481a37bb74991a6aa",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Skill Standards &#038; Curricula Skills Standard &#038; Curriculum Development",
+      "titleUr": "مفت کورس: Skill Standards &#038; Curricula Skills Standard &#038; Curriculum Development",
+      "summaryEn": "Skill Standards &#038; Curricula Skills Standard &#038; Curriculum Development",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Skill Standards &#038; Curricula Skills Standard &#038; Curriculum Development ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:33.013Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-28a4e06c",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/wing/planning-and-development/",
+      "canonicalKey": "d73f11cc84cda4b63ce53ba1",
+      "contentHash": "fc1109e30bde8c2deac99355",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Planning and Development Planning, Monitoring &#038; Evaluation",
+      "titleUr": "مفت کورس: Planning and Development Planning, Monitoring &#038; Evaluation",
+      "summaryEn": "Planning and Development Planning, Monitoring &#038; Evaluation",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Planning and Development Planning, Monitoring &#038; Evaluation ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:32.942Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-534efadc",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/wing/admin-finance-wing/",
+      "canonicalKey": "1705dbad11712d8785260ae8",
+      "contentHash": "73a4dc2d69d8a46d6b4d9e87",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Admin &#038; Finance Wing Administration &#038; Finance",
+      "titleUr": "مفت کورس: Admin &#038; Finance Wing Administration &#038; Finance",
+      "summaryEn": "Admin &#038; Finance Wing Administration &#038; Finance",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Admin &#038; Finance Wing Administration &#038; Finance ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:32.873Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-58398eb0",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/wing/accreditation-and-certification/",
+      "canonicalKey": "e6fdf28cca355b23a7f732c3",
+      "contentHash": "cfb648de4512418fd52e0956",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Accreditation & Certification Accreditation, Certification &#038; International Collaboration",
+      "titleUr": "مفت کورس: Accreditation & Certification Accreditation, Certification &#038; International Collaboration",
+      "summaryEn": "Accreditation & Certification Accreditation, Certification &#038; International Collaboration",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Accreditation & Certification Accreditation, Certification &#038; International Collaboration ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:32.800Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-5490d5cd",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/tvet-sector/",
+      "canonicalKey": "b15d773653d7ae9c03b99388",
+      "contentHash": "e83db270b016c117b2e42f34",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "TVET Sector Ecosystem overview",
+      "titleUr": "مفت کورس: TVET Sector Ecosystem overview",
+      "summaryEn": "TVET Sector Ecosystem overview",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se TVET Sector Ecosystem overview ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:32.712Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-e8869717",
+      "sourceId": "src-navttc",
+      "sourceNameEn": "NAVTTC Free Vocational & Technical Training",
+      "sourceNameUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام",
+      "sourceUrl": "https://navttc.gov.pk/registration/",
+      "canonicalKey": "ca1ca98f1598bfb876a5f830",
+      "contentHash": "b31ec41a3db0eef6b12211ed",
+      "category": "free_courses",
+      "province": "All",
+      "city": "All Pakistan",
+      "titleEn": "Institute Registration",
+      "titleUr": "مفت کورس: Institute Registration",
+      "summaryEn": "Institute Registration",
+      "summaryUr": "نیوٹیک (NAVTTC) مفت فنی تربیت پروگرام کی جانب سے مفت کورس سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "NAVTTC Free Vocational & Technical Training ki taraf se Institute Registration ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:32.628Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-1512e6e2",
+      "sourceId": "src-bpsc",
+      "sourceNameEn": "Balochistan Public Service Commission (BPSC)",
+      "sourceNameUr": "بلوچستان پبلک سروس کمیشن (BPSC)",
+      "sourceUrl": "https://bpsc.gob.pk/assets/Guidelines.pdf",
+      "canonicalKey": "f31089fc1863c96488c7203f",
+      "contentHash": "4e2f9acfb9897f6b7b6d9594",
+      "category": "gov_jobs",
+      "province": "Balochistan",
+      "city": "Balochistan Districts",
+      "titleEn": "Guideline how to apply online",
+      "titleUr": "سرکاری ملازمت: Guideline how to apply online",
+      "summaryEn": "Guideline how to apply online",
+      "summaryUr": "بلوچستان پبلک سروس کمیشن (BPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Balochistan Public Service Commission (BPSC) ki taraf se Guideline how to apply online ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.961Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-8c3ffd7b",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://kppsc.gov.pk/public/assets/downloads/files/Disqualification_Debare_list_updated_28-10-2026.docx",
+      "canonicalKey": "a886c71995c7f8f46272e1df",
+      "contentHash": "4788b65346ad84fd52678f6a",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "Consolidated list of disqualified Candidates (UFM/Impersonation cases) [dated: 28-10-2026]",
+      "titleUr": "سرکاری ملازمت: Consolidated list of disqualified Candidates (UFM/Impersonation cases) [dated: 28-10-2026]",
+      "summaryEn": "Consolidated list of disqualified Candidates (UFM/Impersonation cases) [dated: 28-10-2026]",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se Consolidated list of disqualified Candidates (UFM/Impersonation cases) [dated: 28-10-2026] ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.873Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-01194801",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://www.kppsc.gov.pk/nomination_letter",
+      "canonicalKey": "0283a452b48e755f3051bb05",
+      "contentHash": "83b3bd735112b6706e97534f",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "Nomination / Successful Letters",
+      "titleUr": "سرکاری ملازمت: Nomination / Successful Letters",
+      "summaryEn": "Nomination / Successful Letters",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se Nomination / Successful Letters ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.807Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-d9338f62",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://www.kppsc.gov.pk/public/assets/schedule/files/19th_schedule_2026_Computer_Based_Ability_Tests_12-12-2026.pdf",
+      "canonicalKey": "9aaf81d6c03426a5664b6725",
+      "contentHash": "92e16384ff3b220718cd8c6d",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "19th Schedule, Computer Based Test (CBT), December 2026",
+      "titleUr": "سرکاری ملازمت: 19th Schedule, Computer Based Test (CBT), December 2026",
+      "summaryEn": "19th Schedule, Computer Based Test (CBT), December 2026",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se 19th Schedule, Computer Based Test (CBT), December 2026 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.729Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-f9d4f654",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://kppsc.gov.pk/public/assets/downloads/files/PMS_IN-SERVICE%2004-2026%20ANNOUNCEMENT.pdf",
+      "canonicalKey": "ca98d00d68de0df05c2edd73",
+      "contentHash": "8a6d8144a8e98d4ac510ad62",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "Result of written examination: Provincial Management Service Officer (In-Service) (Bps-17) (Advt: No. 04/2026 (Sr. No. 1)",
+      "titleUr": "سرکاری ملازمت: Result of written examination: Provincial Management Service Officer (In-Service) (Bps-17) (Advt: No. 04/2026 (Sr. No. 1)",
+      "summaryEn": "Result of written examination: Provincial Management Service Officer (In-Service) (Bps-17) (Advt: No. 04/2026 (Sr. No. 1)",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se Result of written examination: Provincial Management Service Officer (In-Service) (Bps-17) (Advt: No. 04/2026 (Sr. No. 1) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.663Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-efdcfcda",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://www.kppsc.gov.pk/dmcs",
+      "canonicalKey": "664dccc3e7550e3acc7760e3",
+      "contentHash": "bf0e403851a90ed7b8ef7d36",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "DMCs: Provincial Management Service Officer (In-Service) (BPS-17)(Advt: No. 04/2026 (Sr. No. 1)",
+      "titleUr": "سرکاری ملازمت: DMCs: Provincial Management Service Officer (In-Service) (BPS-17)(Advt: No. 04/2026 (Sr. No. 1)",
+      "summaryEn": "DMCs: Provincial Management Service Officer (In-Service) (BPS-17)(Advt: No. 04/2026 (Sr. No. 1)",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se DMCs: Provincial Management Service Officer (In-Service) (BPS-17)(Advt: No. 04/2026 (Sr. No. 1) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.586Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-b69818b1",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://kppsc.gov.pk/public/assets/downloads/files/PMS_written_exam_result_02_2025_12112026.pdf",
+      "canonicalKey": "a454ccde287798d3b1868de1",
+      "contentHash": "de4e715d3492eeda391d9da8",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "Result of Written Examination for the Posts of PMS Officer (Adv No. 02/2025 Sr. No. 1)",
+      "titleUr": "سرکاری ملازمت: Result of Written Examination for the Posts of PMS Officer (Adv No. 02/2025 Sr. No. 1)",
+      "summaryEn": "Result of Written Examination for the Posts of PMS Officer (Adv No. 02/2025 Sr. No. 1)",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se Result of Written Examination for the Posts of PMS Officer (Adv No. 02/2025 Sr. No. 1) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.519Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-79bad02f",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://kppsc.gov.pk/public/assets/downloads/files/AETO_written_exam_result_02_2025_12112026.pdf",
+      "canonicalKey": "ee1f97493fd4c71bb4a56dd1",
+      "contentHash": "cb6840beaf773a4c96e91458",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "Result of Written Examination for the Posts of AETO (Adv No. 02/2025 Sr. No. 2)",
+      "titleUr": "سرکاری ملازمت: Result of Written Examination for the Posts of AETO (Adv No. 02/2025 Sr. No. 2)",
+      "summaryEn": "Result of Written Examination for the Posts of AETO (Adv No. 02/2025 Sr. No. 2)",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se Result of Written Examination for the Posts of AETO (Adv No. 02/2025 Sr. No. 2) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.440Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-98aac3f1",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://www.kppsc.gov.pk/public/assets/schedule/files/Interview_programme_December_2026.pdf",
+      "canonicalKey": "3201ab48e3c99fd7bc111bc0",
+      "contentHash": "b395e332f20d2d339e3913fe",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "Interview Programme for the Month of December, 2026",
+      "titleUr": "سرکاری ملازمت: Interview Programme for the Month of December, 2026",
+      "summaryEn": "Interview Programme for the Month of December, 2026",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se Interview Programme for the Month of December, 2026 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.368Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-70924bbf",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://www.kppsc.gov.pk/public/assets/adarchive/files/Advertisement_No_10_2026.pdf",
+      "canonicalKey": "b3d31c1a6281cd84f4fd7318",
+      "contentHash": "6fdaa06ea2d0fe135a5cb366",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "ADVERTISEMENT NO. 10/2026 [Last Date & Time: 17-12-2026 at 05:00 PM]",
+      "titleUr": "سرکاری ملازمت: ADVERTISEMENT NO. 10/2026 [Last Date & Time: 17-12-2026 at 05:00 PM]",
+      "summaryEn": "ADVERTISEMENT NO. 10/2026 [Last Date & Time: 17-12-2026 at 05:00 PM]",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se ADVERTISEMENT NO. 10/2026 [Last Date & Time: 17-12-2026 at 05:00 PM] ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.291Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-5d4edff8",
+      "sourceId": "src-kppsc",
+      "sourceNameEn": "Khyber Pakhtunkhwa PSC (KPPSC)",
+      "sourceNameUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC)",
+      "sourceUrl": "https://www.kppsc.gov.pk/interview_calls",
+      "canonicalKey": "9c4bd1f94dc4ce4ede2cdb18",
+      "contentHash": "ba47df2c7891e0c99f2a4a45",
+      "category": "gov_jobs",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "1: Interview Call up / Shall stand rejected / Rejection e-Letters",
+      "titleUr": "سرکاری ملازمت: 1: Interview Call up / Shall stand rejected / Rejection e-Letters",
+      "summaryEn": "1: Interview Call up / Shall stand rejected / Rejection e-Letters",
+      "summaryUr": "خیبر پختونخوا پبلک سروس کمیشن (KPPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Khyber Pakhtunkhwa PSC (KPPSC) ki taraf se 1: Interview Call up / Shall stand rejected / Rejection e-Letters ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.220Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-6a13f834",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/advertisement/2026/adv-03-2026.pdf",
+      "canonicalKey": "adb310f0cc746888f4f5ba74",
+      "contentHash": "f4352659a31e837c820e9742",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Advertisement 03/26 Closed",
+      "titleUr": "سرکاری ملازمت: Advertisement 03/26 Closed",
+      "summaryEn": "Advertisement 03/26 Closed",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se Advertisement 03/26 Closed ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.141Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-f0092fdf",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/advertisement/2026/adv-04-2026.pdf",
+      "canonicalKey": "cebe90603b832b3f06ca53f9",
+      "contentHash": "f45e08a709feb40d259be539",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Advertisement 04/26 Closed",
+      "titleUr": "سرکاری ملازمت: Advertisement 04/26 Closed",
+      "summaryEn": "Advertisement 04/26 Closed",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se Advertisement 04/26 Closed ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:27.069Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-28913f53",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/advertisement/2026/adv-05-2026.pdf",
+      "canonicalKey": "0e1c7f15a43e62e1582bc67e",
+      "contentHash": "f6476e9b5a589db78d383b14",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Advertisement 05/26 Closed",
+      "titleUr": "سرکاری ملازمت: Advertisement 05/26 Closed",
+      "summaryEn": "Advertisement 05/26 Closed",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se Advertisement 05/26 Closed ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:26.992Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-561a9210",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/advertisement/2026/adv-06-2026.pdf",
+      "canonicalKey": "47b02ac888b6ec0018b2de6e",
+      "contentHash": "d7151775b7a956fd1fc64c68",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Advertisement 06/26 Closed",
+      "titleUr": "سرکاری ملازمت: Advertisement 06/26 Closed",
+      "summaryEn": "Advertisement 06/26 Closed",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se Advertisement 06/26 Closed ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:26.920Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-b4cb6860",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/advertisement/2026/adv-07-2026.pdf",
+      "canonicalKey": "1af6f54b1b3076a4c65cfaf0",
+      "contentHash": "a5f73fdbf682a6a21b21a503",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Advertisement 07/26 Closing dt: 14.12.2026.",
+      "titleUr": "سرکاری ملازمت: Advertisement 07/26 Closing dt: 14.12.2026.",
+      "summaryEn": "Advertisement 07/26 Closing dt: 14.12.2026.",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se Advertisement 07/26 Closing dt: 14.12.2026. ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:26.840Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-885739c1",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/advertisement/2026/adv-08-2026.pdf",
+      "canonicalKey": "141c9c65a7d80d4b685a2f04",
+      "contentHash": "16b7351d06d30a564648e715",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Advertisement 08/26 Closed",
+      "titleUr": "سرکاری ملازمت: Advertisement 08/26 Closed",
+      "summaryEn": "Advertisement 08/26 Closed",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se Advertisement 08/26 Closed ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:26.770Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-f8786ece",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/RMR.php",
+      "canonicalKey": "dea4636d9e64aeb9d537e0e5",
+      "contentHash": "dc330615d03f7653de40cc12",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "SPSC Recruitment Management Regulations (RMR), 2023",
+      "titleUr": "سرکاری ملازمت: SPSC Recruitment Management Regulations (RMR), 2023",
+      "summaryEn": "SPSC Recruitment Management Regulations (RMR), 2023",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se SPSC Recruitment Management Regulations (RMR), 2023 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:26.689Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-4de0062d",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/doc/SPSCFunctionsrules.pdf",
+      "canonicalKey": "24211b8ed2aabcfb5bff7e4d",
+      "contentHash": "4700eaf3c167f5737dac54e4",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "SPSC (Functions) Rules, 2022",
+      "titleUr": "سرکاری ملازمت: SPSC (Functions) Rules, 2022",
+      "summaryEn": "SPSC (Functions) Rules, 2022",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se SPSC (Functions) Rules, 2022 ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:26.621Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-539c9128",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://spsc.gos.pk/doc/chrprsonmemrll.pdf",
+      "canonicalKey": "9f926a4810f3963c72e31555",
+      "contentHash": "26eb7ee525d52c0d58c0ec1d",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "SPSC (Appointment Chairperson & Members Rule, 2022)",
+      "titleUr": "سرکاری ملازمت: SPSC (Appointment Chairperson & Members Rule, 2022)",
+      "summaryEn": "SPSC (Appointment Chairperson & Members Rule, 2022)",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se SPSC (Appointment Chairperson & Members Rule, 2022) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:26.528Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-9b93682f",
+      "sourceId": "src-spsc",
+      "sourceNameEn": "Sindh Public Service Commission (SPSC)",
+      "sourceNameUr": "سندھ پبلک سروس کمیشن (SPSC)",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=com.app.spscapp&hl=en",
+      "canonicalKey": "a956a01321c8db4b03046ac4",
+      "contentHash": "5090fc278c28e319dde04251",
+      "category": "gov_jobs",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Sindh Public Service Commision \"Mobile App\" to submit your applications online & stay informed about the latest SPSC updates & announcements\".",
+      "titleUr": "سرکاری ملازمت: Sindh Public Service Commision \"Mobile App\" to submit your applications online & stay informed about the latest SPSC updates & announcements\".",
+      "summaryEn": "Sindh Public Service Commision \"Mobile App\" to submit your applications online & stay informed about the latest SPSC updates & announcements\".",
+      "summaryUr": "سندھ پبلک سروس کمیشن (SPSC) کی جانب سے سرکاری ملازمت سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Sindh Public Service Commission (SPSC) ki taraf se Sindh Public Service Commision \"Mobile App\" to submit your applications online & stay informed about the latest SPSC updates & announcements\". ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:26.437Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review.",
+        "Deadline not explicitly stated; verify before publishing."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-eec4ec7c",
+      "sourceId": "src-pakistan-gov",
+      "sourceNameEn": "Pakistan Government Official Portal",
+      "sourceNameUr": "حکومتِ پاکستان آفیشل پورٹل",
+      "sourceUrl": "http://bpsc.gob.pk/BPSC/home",
+      "canonicalKey": "78bd2689d287fdb1b510ccdb",
+      "contentHash": "334d2bb987b5d1f0f20536cd",
+      "category": "public_announcements",
+      "province": "Balochistan",
+      "city": "Balochistan Districts",
+      "titleEn": "Balochistan Public Service Commission",
+      "titleUr": "عوامی اعلان: Balochistan Public Service Commission",
+      "summaryEn": "Balochistan Public Service Commission",
+      "summaryUr": "حکومتِ پاکستان آفیشل پورٹل کی جانب سے عوامی اعلان سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Pakistan Government Official Portal ki taraf se Balochistan Public Service Commission ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:16.579Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-8725e55f",
+      "sourceId": "src-pakistan-gov",
+      "sourceNameEn": "Pakistan Government Official Portal",
+      "sourceNameUr": "حکومتِ پاکستان آفیشل پورٹل",
+      "sourceUrl": "https://www.kppsc.gov.pk/",
+      "canonicalKey": "c68acc4ccaed15e3633c7215",
+      "contentHash": "e90f9a8cf79f29774645d4f3",
+      "category": "public_announcements",
+      "province": "Khyber Pakhtunkhwa",
+      "city": "Khyber Pakhtunkhwa Districts",
+      "titleEn": "Khyber Pakhtunkhwa Public Service Commission",
+      "titleUr": "عوامی اعلان: Khyber Pakhtunkhwa Public Service Commission",
+      "summaryEn": "Khyber Pakhtunkhwa Public Service Commission",
+      "summaryUr": "حکومتِ پاکستان آفیشل پورٹل کی جانب سے عوامی اعلان سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Pakistan Government Official Portal ki taraf se Khyber Pakhtunkhwa Public Service Commission ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:16.504Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-2e1f3ff0",
+      "sourceId": "src-pakistan-gov",
+      "sourceNameEn": "Pakistan Government Official Portal",
+      "sourceNameUr": "حکومتِ پاکستان آفیشل پورٹل",
+      "sourceUrl": "https://spsc.gos.pk/",
+      "canonicalKey": "b372419842da6838c4559966",
+      "contentHash": "f25a6d92f9369da0d8fcf375",
+      "category": "public_announcements",
+      "province": "Sindh",
+      "city": "Sindh Districts",
+      "titleEn": "Sindh Public Service Commission",
+      "titleUr": "عوامی اعلان: Sindh Public Service Commission",
+      "summaryEn": "Sindh Public Service Commission",
+      "summaryUr": "حکومتِ پاکستان آفیشل پورٹل کی جانب سے عوامی اعلان سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Pakistan Government Official Portal ki taraf se Sindh Public Service Commission ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:16.420Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-38c8d55e",
+      "sourceId": "src-pakistan-gov",
+      "sourceNameEn": "Pakistan Government Official Portal",
+      "sourceNameUr": "حکومتِ پاکستان آفیشل پورٹل",
+      "sourceUrl": "https://www.ppsc.gop.pk/(S(zpt5fp55otpdaz4wcpekrjq5))/default.aspx",
+      "canonicalKey": "a3df460e79e2692282dd66d9",
+      "contentHash": "34978757454acb8de241b976",
+      "category": "public_announcements",
+      "province": "Punjab",
+      "city": "Punjab Districts",
+      "titleEn": "Punjab Public Service Commission",
+      "titleUr": "عوامی اعلان: Punjab Public Service Commission",
+      "summaryEn": "Punjab Public Service Commission",
+      "summaryUr": "حکومتِ پاکستان آفیشل پورٹل کی جانب سے عوامی اعلان سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Pakistan Government Official Portal ki taraf se Punjab Public Service Commission ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:16.348Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-40e8c29b",
+      "sourceId": "src-pakistan-gov",
+      "sourceNameEn": "Pakistan Government Official Portal",
+      "sourceNameUr": "حکومتِ پاکستان آفیشل پورٹل",
+      "sourceUrl": "https://www.fpsc.gov.pk/",
+      "canonicalKey": "376863b2d836c6cbc81f0bd9",
+      "contentHash": "6d81e0ef9852df0bae509668",
+      "category": "public_announcements",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "Federal Public Service Commission",
+      "titleUr": "عوامی اعلان: Federal Public Service Commission",
+      "summaryEn": "Federal Public Service Commission",
+      "summaryUr": "حکومتِ پاکستان آفیشل پورٹل کی جانب سے عوامی اعلان سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Pakistan Government Official Portal ki taraf se Federal Public Service Commission ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:16.266Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-448212c9",
+      "sourceId": "src-pakistan-gov",
+      "sourceNameEn": "Pakistan Government Official Portal",
+      "sourceNameUr": "حکومتِ پاکستان آفیشل پورٹل",
+      "sourceUrl": "https://www.nadra.gov.pk/",
+      "canonicalKey": "99dfa3851f40839b79db7ced",
+      "contentHash": "7a6d4fade6903f5fe9ec1bfa",
+      "category": "nadra_updates",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "National Database & Registration Authority (NADRA)",
+      "titleUr": "نادرا اپ ڈیٹ: National Database & Registration Authority (NADRA)",
+      "summaryEn": "National Database & Registration Authority (NADRA)",
+      "summaryUr": "حکومتِ پاکستان آفیشل پورٹل کی جانب سے نادرا اپ ڈیٹ سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Pakistan Government Official Portal ki taraf se National Database & Registration Authority (NADRA) ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:16.174Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
+    {
+      "id": "upd-e6250834",
+      "sourceId": "src-pakistan-gov",
+      "sourceNameEn": "Pakistan Government Official Portal",
+      "sourceNameUr": "حکومتِ پاکستان آفیشل پورٹل",
+      "sourceUrl": "https://pmyp.gov.pk/pmyphome/Scholarship",
+      "canonicalKey": "d16c1df5149d5c2ea42cac95",
+      "contentHash": "eebc3fd92c543f356cc0e252",
+      "category": "public_announcements",
+      "province": "Federal",
+      "city": "Islamabad / Nationwide",
+      "titleEn": "Prime Minister&#039;s Scholarships",
+      "titleUr": "عوامی اعلان: Prime Minister&#039;s Scholarships",
+      "summaryEn": "Prime Minister&#039;s Scholarships",
+      "summaryUr": "حکومتِ پاکستان آفیشل پورٹل کی جانب سے عوامی اعلان سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔",
+      "summaryRomanUrdu": "Pakistan Government Official Portal ki taraf se Prime Minister&#039;s Scholarships ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.",
+      "eligibilityEn": [
+        "Check the linked official announcement for complete eligibility details."
+      ],
+      "eligibilityUr": [
+        "مکمل اہلیت اور شرائط کے لیے منسلک سرکاری اعلان ملاحظہ کریں۔"
+      ],
+      "feeNoteEn": "Not stated in announcement.",
+      "feeNoteUr": "اعلان میں کوئی فیس بیان نہیں کی گئی۔",
+      "deadline": "Not specified",
+      "originalPublishedDate": "2026-11-27",
+      "discoveredAt": "2026-11-27T08:33:16.069Z",
+      "lastVerifiedDate": "2026-11-27",
+      "status": "pending_verification",
+      "processingMode": "rule_parser",
+      "validationWarnings": [
+        "Uncertain bare link without announcement body or deadline; queued for review."
+      ],
+      "trustedSource": true,
+      "isDemo": false
+    },
     {
       "id": "upd-demo-01",
       "sourceId": "src-spsc",
@@ -1145,7 +3664,7 @@
       "discoveredAt": "2026-11-22T09:15:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1181,7 +3700,7 @@
       "discoveredAt": "2026-11-21T11:30:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1217,7 +3736,7 @@
       "discoveredAt": "2026-11-20T10:00:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1253,7 +3772,7 @@
       "discoveredAt": "2026-11-23T08:00:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1289,7 +3808,7 @@
       "discoveredAt": "2026-11-24T07:45:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1325,7 +3844,7 @@
       "discoveredAt": "2026-11-22T12:10:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1361,7 +3880,7 @@
       "discoveredAt": "2026-11-23T14:20:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1397,7 +3916,7 @@
       "discoveredAt": "2026-11-20T16:00:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1431,7 +3950,7 @@
       "discoveredAt": "2026-11-24T10:15:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1465,7 +3984,7 @@
       "discoveredAt": "2026-11-23T15:00:00.000Z",
       "lastVerifiedDate": "2026-11-25",
       "status": "auto_published",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [],
       "trustedSource": true,
       "isDemo": true
@@ -1499,7 +4018,7 @@
       "discoveredAt": "2026-11-24T17:10:00.000Z",
       "lastVerifiedDate": "2026-11-24",
       "status": "pending_verification",
-      "processingMode": "deterministic_fallback",
+      "processingMode": "rule_parser",
       "validationWarnings": [
         "Missing explicit application deadline; routed to Admin queue."
       ],
@@ -1509,6 +4028,645 @@
   ],
   "notificationSubscriptions": [],
   "syncAuditLogs": [
+    {
+      "id": "aud-2942f204",
+      "timestamp": "2026-11-27T08:33:56.299Z",
+      "actor": "scheduler",
+      "action": "sync_completed",
+      "detail": "Checked 20 sources (11 ok, 3 skipped, 6 errors). New: 70, Updated: 0, Duplicates skipped: 0, Expired marked: 0."
+    },
+    {
+      "id": "aud-3cf22437",
+      "timestamp": "2026-11-27T08:33:56.299Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-e1b0e311",
+      "detail": "Auto-published \"UNIVERSITY OF KARACHI جامعہ کراچی • ESTD. 1951 DIAMOND JUBILEE 75 YEARS (1951–2026)\" (university_admissions, Sindh) via deterministic_fallback."
+    },
+    {
+      "id": "aud-593e7966",
+      "timestamp": "2026-11-27T08:33:56.225Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-c178722d",
+      "detail": "Auto-published \"Postgraduate Admissions\" (university_admissions, Sindh) via deterministic_fallback."
+    },
+    {
+      "id": "aud-c64965a9",
+      "timestamp": "2026-11-27T08:33:56.152Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-b4e450be",
+      "detail": "Auto-published \"Annual Convocation: Degree Verification & Registration Portal Open for Graduating Batches\" (university_admissions, Sindh) via deterministic_fallback."
+    },
+    {
+      "id": "aud-2b8709fa",
+      "timestamp": "2026-11-27T08:33:56.082Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-f9675ed1",
+      "detail": "Auto-published \"Notice: Postgraduate Research Grant Applications & Semester Fee Schedule Announced\" (university_admissions, Sindh) via deterministic_fallback."
+    },
+    {
+      "id": "aud-494af54e",
+      "timestamp": "2026-11-27T08:33:56.003Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-a2488c17",
+      "detail": "Auto-published \"Admissions 2027: Online Applications Open for Undergraduate & Postgraduate Programs\" (university_admissions, Sindh) via deterministic_fallback."
+    },
+    {
+      "id": "aud-51b9f55e",
+      "timestamp": "2026-11-27T08:33:55.933Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-252a1b89",
+      "detail": "Queued \"Sindh govt partners with Google & Tech Valley to provide over 30,000 digital skills scholarships:\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-ae18bef3",
+      "timestamp": "2026-11-27T08:33:55.860Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-e21394c6",
+      "detail": "Auto-published \"Sindh IT Company Career Opportunities\" (citizen_services, Sindh) via deterministic_fallback."
+    },
+    {
+      "id": "aud-92ae48ab",
+      "timestamp": "2026-11-27T08:33:55.789Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-b0b612bb",
+      "detail": "Queued \"CM Sindh witnesses MoUs signing for Google Digital Sahafat Scholarships with Tech Valley, S&ITD, and Info Dept at CM House.\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-6c1ead30",
+      "timestamp": "2026-11-27T08:33:55.715Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-57e63e84",
+      "detail": "Auto-published \"Govt of Sindh Launches Free Technical Courses for Youth – Registration Open Till Sept 20\" (citizen_services, Sindh) via deterministic_fallback."
+    },
+    {
+      "id": "aud-85d58433",
+      "timestamp": "2026-11-27T08:33:55.510Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-dff7143c",
+      "detail": "Queued \"CM Syed Murad Ali Shah Inaugurates Sindh Job Portal at CM House Karachi\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-8729fd2c",
+      "timestamp": "2026-11-27T08:33:55.440Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-b4d955f4",
+      "detail": "Queued \"The first advertisement for Junior Clerk jobs has been published on the Sindh Job Portal.\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-2db0b12a",
+      "timestamp": "2026-11-27T08:33:55.369Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-ad50e58f",
+      "detail": "Queued \"Training Management & Research (TMR) Wing, SGA&CD\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-ff7b63e0",
+      "timestamp": "2026-11-27T08:33:55.297Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-ca869e58",
+      "detail": "Queued \"Sindh Technical Education and Vocational Training Authority\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-bbbccd1c",
+      "timestamp": "2026-11-27T08:33:55.223Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-db284b28",
+      "detail": "Queued \"Research & Training Wing\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-b99bc7fe",
+      "timestamp": "2026-11-27T08:33:55.140Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-b583055e",
+      "detail": "Queued \"National Institute of Labour Administration Training (NILAT)\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-1910bf27",
+      "timestamp": "2026-11-27T08:33:55.054Z",
+      "actor": "scheduler",
+      "action": "source_skipped",
+      "targetId": "src-sindh-police",
+      "detail": "SINDH-POLICE: HTTP 403: Portal restricted automated access or requires login (not bypassed)."
+    },
+    {
+      "id": "aud-b0b18693",
+      "timestamp": "2026-11-27T08:33:55.054Z",
+      "actor": "scheduler",
+      "action": "source_error",
+      "targetId": "src-paf",
+      "detail": "PAF: Connection timed out (6.5s)."
+    },
+    {
+      "id": "aud-0271bf04",
+      "timestamp": "2026-11-27T08:33:45.112Z",
+      "actor": "scheduler",
+      "action": "source_skipped",
+      "targetId": "src-paknavy",
+      "detail": "PAK-NAVY: Portal robots.txt disallows automated indexing (honoring policy)."
+    },
+    {
+      "id": "aud-94cea023",
+      "timestamp": "2026-11-27T08:33:45.112Z",
+      "actor": "scheduler",
+      "action": "source_error",
+      "targetId": "src-pakarmy",
+      "detail": "PAK-ARMY: Connection timed out (6.5s)."
+    },
+    {
+      "id": "aud-0345b686",
+      "timestamp": "2026-11-27T08:33:45.112Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-0bd9051f",
+      "detail": "Auto-published \"The Ambassador of the Islamic Republic of Iran H.E. Dr. Reza Amiri Moghaddam called on the Defence Minister Khawaja Muhammad Asif on 20th January, 2026\" (armed_forces, Federal) via deterministic_fallback."
+    },
+    {
+      "id": "aud-dfd60bae",
+      "timestamp": "2026-11-27T08:33:45.036Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-3da41819",
+      "detail": "Auto-published \"Ambassadors of the Association of Southeast Asian Nations (ASEAN) called on Defence Minister Khawaja Muhammad Asif in Islamabad on 21st January, 2026\" (armed_forces, Federal) via deterministic_fallback."
+    },
+    {
+      "id": "aud-eb5fbf39",
+      "timestamp": "2026-11-27T08:33:44.965Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-4f3f7611",
+      "detail": "Queued \"INTERVIEW SCHEDULE: Recruitment against Vacant Posts Reserved for Balochistan Quota–Ministry of Defence (Defence Division)\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-ab0a5bc8",
+      "timestamp": "2026-11-27T08:33:44.889Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-d321fdf0",
+      "detail": "Queued \"National Vocational and Technical Training Commission\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-5a5e8070",
+      "timestamp": "2026-11-27T08:33:44.821Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-555e4a47",
+      "detail": "Queued \"Higher Education Commission\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-58b69e3e",
+      "timestamp": "2026-11-27T08:33:44.751Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-41b62d5d",
+      "detail": "Queued \"Vacancy Announcement of DG-PIE\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-0a950951",
+      "timestamp": "2026-11-27T08:33:44.680Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-08f4a108",
+      "detail": "Queued \"TERMS OF REFERENCE (ToR) Young Professional – Education/Training\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-172e23f1",
+      "timestamp": "2026-11-27T08:33:44.609Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-1c04c940",
+      "detail": "Queued \"Ministry of Federal Education and Professional Training Pakistan\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-cb2b8c66",
+      "timestamp": "2026-11-27T08:33:44.537Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-81a06110",
+      "detail": "Queued \"Message from the Federal Secretary on World Teachers's Day 2026\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-d38d799c",
+      "timestamp": "2026-11-27T08:33:44.454Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-b9e2756d",
+      "detail": "Queued \"Draft Federal Education Policy &ndash; 2026\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-c4a50a31",
+      "timestamp": "2026-11-27T08:33:33.881Z",
+      "actor": "scheduler",
+      "action": "source_error",
+      "targetId": "src-moitt",
+      "detail": "MOITT: fetch failed"
+    },
+    {
+      "id": "aud-6ae34252",
+      "timestamp": "2026-11-27T08:33:33.881Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-af590c29",
+      "detail": "Queued \"Brief On Bisp Final Impact Asssessment Report\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-64eb5103",
+      "timestamp": "2026-11-27T08:33:33.804Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-b1a67e19",
+      "detail": "Queued \"Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-b9116a1c",
+      "timestamp": "2026-11-27T08:33:33.738Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-4ba305d2",
+      "detail": "Queued \"Addendum - 1 for \"Hiring of Financial Institutions (FIs) for Payments to BISP Beneficiaries\"\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-d02baef9",
+      "timestamp": "2026-11-27T08:33:33.665Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-5f5c1dfd",
+      "detail": "Queued \"MINISTER FOR POVERTY ALLEVIATION AND SOCIAL SAFETY, SYED IMRAN AHMED SHAH, AND CHAIRPERSON BISP SENATOR RUBINA KHA...\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-bd1768a1",
+      "timestamp": "2026-11-27T08:33:33.595Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-a1f20357",
+      "detail": "Queued \"Chairperson Benazir Income Support Programme (BISP) Senator Rubina Khalid and Secretary BISP Mr. Amer Ali Ahmad he...\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-0d48d937",
+      "timestamp": "2026-11-27T08:33:33.522Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-173ca85a",
+      "detail": "Queued \"BISP HOLDS CEREMONY TO MARK PAKISTAN'S 79TH INDEPENDENCE DAY...\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-ea000909",
+      "timestamp": "2026-11-27T08:33:33.453Z",
+      "actor": "scheduler",
+      "action": "auto_published",
+      "targetId": "upd-7005e659",
+      "detail": "Auto-published \"BISP MARKS WORLD BREASTFEEDING WEEK 2026, REAFFIRMS COMMITMENT TO MATERNAL AND CHILD NUTRITION\" (gov_schemes, All) via deterministic_fallback."
+    },
+    {
+      "id": "aud-2119f020",
+      "timestamp": "2026-11-27T08:33:33.376Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-51a4b02d",
+      "detail": "Queued \"Downloads Forms, guidelines &#038; documents\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-69060670",
+      "timestamp": "2026-11-27T08:33:33.307Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-e3b3e14d",
+      "detail": "Queued \"Act & Regulation The NAVTTC Act &#038; regulations\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-92d0a6ec",
+      "timestamp": "2026-11-27T08:33:33.237Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-9f304acb",
+      "detail": "Queued \"Notifications Official notifications\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-cfd0cc2a",
+      "timestamp": "2026-11-27T08:33:33.158Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-a9b025e9",
+      "detail": "Queued \"Notices & Tenders Latest tenders &#038; notices\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-67bef197",
+      "timestamp": "2026-11-27T08:33:33.086Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-cfea4dee",
+      "detail": "Queued \"Skill Standards &#038; Curricula Skills Standard &#038; Curriculum Development\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-fb89b21c",
+      "timestamp": "2026-11-27T08:33:33.013Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-28a4e06c",
+      "detail": "Queued \"Planning and Development Planning, Monitoring &#038; Evaluation\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-d49551e9",
+      "timestamp": "2026-11-27T08:33:32.942Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-534efadc",
+      "detail": "Queued \"Admin &#038; Finance Wing Administration &#038; Finance\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-539359f7",
+      "timestamp": "2026-11-27T08:33:32.873Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-58398eb0",
+      "detail": "Queued \"Accreditation & Certification Accreditation, Certification &#038; International Collaboration\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-1a5af631",
+      "timestamp": "2026-11-27T08:33:32.800Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-5490d5cd",
+      "detail": "Queued \"TVET Sector Ecosystem overview\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-d8a855be",
+      "timestamp": "2026-11-27T08:33:32.712Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-e8869717",
+      "detail": "Queued \"Institute Registration\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-a87ac7fb",
+      "timestamp": "2026-11-27T08:33:28.030Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-1512e6e2",
+      "detail": "Queued \"Guideline how to apply online\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-67d866ff",
+      "timestamp": "2026-11-27T08:33:27.961Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-8c3ffd7b",
+      "detail": "Queued \"Consolidated list of disqualified Candidates (UFM/Impersonation cases) [dated: 28-10-2026]\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-f2f5f10f",
+      "timestamp": "2026-11-27T08:33:27.873Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-01194801",
+      "detail": "Queued \"Nomination / Successful Letters\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-45ea95ec",
+      "timestamp": "2026-11-27T08:33:27.806Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-d9338f62",
+      "detail": "Queued \"19th Schedule, Computer Based Test (CBT), December 2026\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-2acbf61d",
+      "timestamp": "2026-11-27T08:33:27.729Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-f9d4f654",
+      "detail": "Queued \"Result of written examination: Provincial Management Service Officer (In-Service) (Bps-17) (Advt: No. 04/2026 (Sr. No. 1)\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-3678eab7",
+      "timestamp": "2026-11-27T08:33:27.663Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-efdcfcda",
+      "detail": "Queued \"DMCs: Provincial Management Service Officer (In-Service) (BPS-17)(Advt: No. 04/2026 (Sr. No. 1)\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-960d45b7",
+      "timestamp": "2026-11-27T08:33:27.586Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-b69818b1",
+      "detail": "Queued \"Result of Written Examination for the Posts of PMS Officer (Adv No. 02/2025 Sr. No. 1)\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-95d4f59f",
+      "timestamp": "2026-11-27T08:33:27.519Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-79bad02f",
+      "detail": "Queued \"Result of Written Examination for the Posts of AETO (Adv No. 02/2025 Sr. No. 2)\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-edd9752c",
+      "timestamp": "2026-11-27T08:33:27.440Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-98aac3f1",
+      "detail": "Queued \"Interview Programme for the Month of December, 2026\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-e3a237f3",
+      "timestamp": "2026-11-27T08:33:27.368Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-70924bbf",
+      "detail": "Queued \"ADVERTISEMENT NO. 10/2026 [Last Date & Time: 17-12-2026 at 05:00 PM]\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-5daa316f",
+      "timestamp": "2026-11-27T08:33:27.291Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-5d4edff8",
+      "detail": "Queued \"1: Interview Call up / Shall stand rejected / Rejection e-Letters\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-f2087f6c",
+      "timestamp": "2026-11-27T08:33:27.220Z",
+      "actor": "scheduler",
+      "action": "source_error",
+      "targetId": "src-ppsc",
+      "detail": "PPSC: Connection timed out (6.5s)."
+    },
+    {
+      "id": "aud-efd41ae5",
+      "timestamp": "2026-11-27T08:33:27.220Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-6a13f834",
+      "detail": "Queued \"Advertisement 03/26 Closed\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-4727c2db",
+      "timestamp": "2026-11-27T08:33:27.140Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-f0092fdf",
+      "detail": "Queued \"Advertisement 04/26 Closed\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-eae1c56e",
+      "timestamp": "2026-11-27T08:33:27.069Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-28913f53",
+      "detail": "Queued \"Advertisement 05/26 Closed\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-e0237eb6",
+      "timestamp": "2026-11-27T08:33:26.992Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-561a9210",
+      "detail": "Queued \"Advertisement 06/26 Closed\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-95ce58d8",
+      "timestamp": "2026-11-27T08:33:26.920Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-b4cb6860",
+      "detail": "Queued \"Advertisement 07/26 Closing dt: 14.12.2026.\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-b2350870",
+      "timestamp": "2026-11-27T08:33:26.840Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-885739c1",
+      "detail": "Queued \"Advertisement 08/26 Closed\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-7038078f",
+      "timestamp": "2026-11-27T08:33:26.770Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-f8786ece",
+      "detail": "Queued \"SPSC Recruitment Management Regulations (RMR), 2023\" for Admin verification (Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-31784bed",
+      "timestamp": "2026-11-27T08:33:26.689Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-4de0062d",
+      "detail": "Queued \"SPSC (Functions) Rules, 2022\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-1c6e72d7",
+      "timestamp": "2026-11-27T08:33:26.621Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-539c9128",
+      "detail": "Queued \"SPSC (Appointment Chairperson & Members Rule, 2022)\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-92cf6511",
+      "timestamp": "2026-11-27T08:33:26.528Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-9b93682f",
+      "detail": "Queued \"Sindh Public Service Commision \"Mobile App\" to submit your applications online & stay informed about the latest SPSC updates & announcements\".\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.; Deadline not explicitly stated; verify before publishing.)."
+    },
+    {
+      "id": "aud-638f1420",
+      "timestamp": "2026-11-27T08:33:16.651Z",
+      "actor": "scheduler",
+      "action": "source_error",
+      "targetId": "src-fpsc",
+      "detail": "FPSC: fetch failed"
+    },
+    {
+      "id": "aud-f83ab14d",
+      "timestamp": "2026-11-27T08:33:16.651Z",
+      "actor": "scheduler",
+      "action": "source_error",
+      "targetId": "src-njp",
+      "detail": "NJP: fetch failed"
+    },
+    {
+      "id": "aud-b888322a",
+      "timestamp": "2026-11-27T08:33:16.651Z",
+      "actor": "scheduler",
+      "action": "source_skipped",
+      "targetId": "src-nadra",
+      "detail": "NADRA: HTTP 403: Portal restricted automated access or requires login (not bypassed)."
+    },
+    {
+      "id": "aud-19ec16f8",
+      "timestamp": "2026-11-27T08:33:16.651Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-eec4ec7c",
+      "detail": "Queued \"Balochistan Public Service Commission\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-c788e4cb",
+      "timestamp": "2026-11-27T08:33:16.579Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-8725e55f",
+      "detail": "Queued \"Khyber Pakhtunkhwa Public Service Commission\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-8b5b7c06",
+      "timestamp": "2026-11-27T08:33:16.504Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-2e1f3ff0",
+      "detail": "Queued \"Sindh Public Service Commission\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-e139c909",
+      "timestamp": "2026-11-27T08:33:16.420Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-38c8d55e",
+      "detail": "Queued \"Punjab Public Service Commission\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-4d33b5f1",
+      "timestamp": "2026-11-27T08:33:16.348Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-40e8c29b",
+      "detail": "Queued \"Federal Public Service Commission\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-c5574db2",
+      "timestamp": "2026-11-27T08:33:16.266Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-448212c9",
+      "detail": "Queued \"National Database & Registration Authority (NADRA)\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
+    {
+      "id": "aud-c233b036",
+      "timestamp": "2026-11-27T08:33:16.174Z",
+      "actor": "scheduler",
+      "action": "queued_for_review",
+      "targetId": "upd-e6250834",
+      "detail": "Queued \"Prime Minister&#039;s Scholarships\" for Admin verification (Uncertain bare link without announcement body or deadline; queued for review.)."
+    },
     {
       "id": "aud-seed-01",
       "timestamp": "2026-11-25T08:00:00.000Z",
@@ -1529,14 +4687,14 @@
     "schedulerEnabled": true,
     "intervalMinutes": 60,
     "isSyncing": true,
-    "lastSyncStartedAt": "2026-11-26T21:08:49.284Z",
-    "lastSuccessfulSyncAt": null,
-    "lastScheduledSyncAt": null,
-    "nextScheduledSyncAt": null,
-    "totalSyncRuns": 0,
-    "newAnnouncementsDetected": 11,
-    "autoPublishedCount": 10,
+    "lastSyncStartedAt": "2026-11-27T08:34:26.414Z",
+    "lastSuccessfulSyncAt": "2026-11-27T08:33:56.299Z",
+    "lastScheduledSyncAt": "2026-11-27T08:33:56.299Z",
+    "nextScheduledSyncAt": "2026-11-27T09:33:56.299Z",
+    "totalSyncRuns": 1,
+    "newAnnouncementsDetected": 81,
+    "autoPublishedCount": 20,
     "duplicatesSkippedCount": 0,
-    "lastRunSummary": "Registry ready. Scheduled monitor active."
+    "lastRunSummary": "Checked 20 sources (11 ok, 3 skipped, 6 errors). New: 70, Updated: 0, Duplicates skipped: 0, Expired marked: 0."
   }
 }

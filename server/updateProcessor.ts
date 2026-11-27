@@ -229,84 +229,6 @@ function extractEligibility(text: string): { en: string[]; ur: string[] } {
   };
 }
 
-interface GroqParsedPayload {
-  category?: UpdateCategory;
-  province?: Province;
-  city?: string;
-  titleEn?: string;
-  titleUr?: string;
-  summaryEn?: string;
-  summaryUr?: string;
-  summaryRomanUrdu?: string;
-  eligibilityEn?: string[];
-  eligibilityUr?: string[];
-  feeNoteEn?: string;
-  feeNoteUr?: string;
-  deadline?: string;
-}
-
-async function processWithGroq(
-  item: RawDiscoveredItem,
-  source: MonitoredSource,
-): Promise<GroqParsedPayload | null> {
-  const apiKey = process.env.GROQ_API_KEY?.trim();
-  if (!apiKey) return null;
-
-  const systemPrompt = [
-    'You are the RAASTA Pakistan Public Information Extractor.',
-    'Extract structured facts ONLY from the provided official announcement text.',
-    'STRICT RULES:',
-    '1. NEVER invent fees, deadlines, vacancy counts, or rules not explicitly stated in the text.',
-    '2. If deadline is missing, return "Not specified". If rolling/ongoing, return "Rolling". Otherwise return YYYY-MM-DD.',
-    '3. If fee is not explicitly stated, set feeNoteEn to "Not stated in announcement." and feeNoteUr to "اعلان میں کوئی فیس بیان نہیں کی گئی۔".',
-    `4. category MUST be one of: ${VALID_CATEGORIES.join(', ')}.`,
-    '5. province MUST be one of: All, Sindh, Federal, Punjab, Khyber Pakhtunkhwa, Balochistan.',
-    '6. Provide concise, plain-language summaryEn, natural Urdu summaryUr, and simple Roman Urdu summaryRomanUrdu.',
-    '7. Output ONLY valid JSON matching the keys: category, province, city, titleEn, titleUr, summaryEn, summaryUr, summaryRomanUrdu, eligibilityEn, eligibilityUr, feeNoteEn, feeNoteUr, deadline.',
-  ].join('\n');
-
-  const userPrompt = JSON.stringify({
-    sourceName: source.nameEn,
-    defaultCategory: source.categoryDefault,
-    defaultProvince: source.provinceDefault,
-    title: item.title,
-    url: item.url,
-    publishedDate: item.publishedDate,
-    explicitDeadline: item.explicitDeadline || null,
-    content: item.content.slice(0, 3000),
-  });
-
-  try {
-    const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${apiKey}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        model: 'llama-3.3-70b-versatile',
-        temperature: 0.1,
-        response_format: { type: 'json_object' },
-        messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: userPrompt },
-        ],
-      }),
-      signal: AbortSignal.timeout(10000),
-    });
-
-    if (!res.ok) return null;
-    const data = (await res.json()) as {
-      choices?: Array<{ message?: { content?: string } }>;
-    };
-    const rawJson = data.choices?.[0]?.message?.content;
-    if (!rawJson) return null;
-    return JSON.parse(rawJson) as GroqParsedPayload;
-  } catch {
-    return null;
-  }
-}
-
 export async function processDiscoveredAnnouncement(
   item: RawDiscoveredItem,
   source: MonitoredSource,
@@ -326,78 +248,33 @@ export async function processDiscoveredAnnouncement(
     };
   }
 
-  const groqResult = await processWithGroq(item, source);
-  const processingMode: NationalUpdate['processingMode'] = groqResult
-    ? 'groq_ai'
-    : 'deterministic_fallback';
+  const processingMode: NationalUpdate['processingMode'] = 'rule_parser';
+  const category = detectCategoryDeterministic(combinedText, source.categoryDefault);
+  const { province, city } = detectProvinceAndCity(combinedText, source.provinceDefault);
+  const deadline = extractDeadlineFromText(combinedText, item.explicitDeadline);
+  const fee = extractFeeNote(combinedText);
+  const eligibility = extractEligibility(combinedText);
 
-  const fallbackCategory = detectCategoryDeterministic(combinedText, source.categoryDefault);
-  const category =
-    groqResult?.category && VALID_CATEGORIES.includes(groqResult.category)
-      ? groqResult.category
-      : fallbackCategory;
-
-  const { province: detProvince, city: detCity } = detectProvinceAndCity(
-    combinedText,
-    source.provinceDefault,
-  );
-  const validProvinces: Province[] = [
-    'All',
-    'Sindh',
-    'Federal',
-    'Punjab',
-    'Khyber Pakhtunkhwa',
-    'Balochistan',
-  ];
-  const province =
-    groqResult?.province && validProvinces.includes(groqResult.province)
-      ? groqResult.province
-      : detProvince;
-  const city = groqResult?.city?.trim() || detCity;
-
-  const detDeadline = extractDeadlineFromText(combinedText, item.explicitDeadline);
-  const deadline =
-    groqResult?.deadline &&
-    (/^\d{4}-\d{2}-\d{2}$/.test(groqResult.deadline.trim()) ||
-      groqResult.deadline === 'Rolling' ||
-      groqResult.deadline === 'Not specified')
-      ? groqResult.deadline.trim()
-      : detDeadline;
-
-  const detFee = extractFeeNote(combinedText);
-  const feeNoteEn = groqResult?.feeNoteEn?.trim() || detFee.en;
-  const feeNoteUr = groqResult?.feeNoteUr?.trim() || detFee.ur;
-
-  const detEligibility = extractEligibility(combinedText);
-  const eligibilityEn =
-    Array.isArray(groqResult?.eligibilityEn) && groqResult.eligibilityEn.length > 0
-      ? groqResult.eligibilityEn.map((s) => String(s).trim()).filter(Boolean).slice(0, 5)
-      : detEligibility.en;
-  const eligibilityUr =
-    Array.isArray(groqResult?.eligibilityUr) && groqResult.eligibilityUr.length > 0
-      ? groqResult.eligibilityUr.map((s) => String(s).trim()).filter(Boolean).slice(0, 5)
-      : detEligibility.ur;
-
-  const titleEn = (groqResult?.titleEn?.trim() || item.title).slice(0, 200);
-  const titleUr = (groqResult?.titleUr?.trim() || `${CATEGORY_URDU_MAP[category]}: ${titleEn}`).slice(
-    0,
-    220,
-  );
+  const titleEn = item.title.trim().slice(0, 200);
+  const titleUr = `${CATEGORY_URDU_MAP[category]}: ${titleEn}`.slice(0, 220);
 
   const summaryEn = (
-    groqResult?.summaryEn?.trim() ||
-    (item.content.length > 20 ? item.content : `Official announcement from ${source.nameEn}: ${titleEn}. Verify complete notice on source portal.`)
+    item.content.length > 20
+      ? item.content
+      : `Official announcement from ${source.nameEn}: ${titleEn}. Verify complete notice on source portal.`
   ).slice(0, 700);
 
-  const summaryUr = (
-    groqResult?.summaryUr?.trim() ||
-    `${source.nameUr} کی جانب سے ${CATEGORY_URDU_MAP[category]} سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔`
-  ).slice(0, 700);
+  const summaryUr =
+    `${source.nameUr} کی جانب سے ${CATEGORY_URDU_MAP[category]} سے متعلق نیا اعلان۔ مکمل تفصیلات کے لیے سرکاری لنک ملاحظہ کریں۔`.slice(
+      0,
+      700,
+    );
 
-  const summaryRomanUrdu = (
-    groqResult?.summaryRomanUrdu?.trim() ||
-    `${source.nameEn} ki taraf se ${titleEn} ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.`
-  ).slice(0, 700);
+  const summaryRomanUrdu =
+    `${source.nameEn} ki taraf se ${titleEn} ka elaan jari hua hai. Mukammal tafseelat aur aakhri tareekh ke liye sarkari website check karein.`.slice(
+      0,
+      700,
+    );
 
   const urlCheck = validateUrlFormat(item.url);
   const validationWarnings: string[] = [];
@@ -419,7 +296,9 @@ export async function processDiscoveredAnnouncement(
     item.content.trim().length <= item.title.trim().length + 5 &&
     !/\b(2026|2027|open|announced|admissions|recruitment|career|scholarship)\b/i.test(titleEn)
   ) {
-    validationWarnings.push('Uncertain bare link without announcement body or deadline; queued for review.');
+    validationWarnings.push(
+      'Uncertain bare link without announcement body or deadline; queued for review.',
+    );
   }
   if (deadline === 'Not specified' && (category === 'gov_jobs' || category === 'scholarships')) {
     validationWarnings.push('Deadline not explicitly stated; verify before publishing.');
@@ -451,10 +330,10 @@ export async function processDiscoveredAnnouncement(
       summaryEn,
       summaryUr,
       summaryRomanUrdu,
-      eligibilityEn,
-      eligibilityUr,
-      feeNoteEn,
-      feeNoteUr,
+      eligibilityEn: eligibility.en,
+      eligibilityUr: eligibility.ur,
+      feeNoteEn: fee.en,
+      feeNoteUr: fee.ur,
       deadline,
       originalPublishedDate: item.publishedDate || today,
       discoveredAt: nowIso,

@@ -1000,7 +1000,7 @@ async function startServer() {
     res.json({ ok: true });
   });
 
-  // Admin ingest & test endpoint: runs announcement or raw feed through Groq/fallback + dedupe + expiry + validation
+  // Admin ingest & test endpoint: runs announcement or raw feed through rule-based extraction + dedupe + expiry + validation
   app.post('/api/admin/engine/ingest', requireAdmin, async (req, res) => {
     const body = req.body as Record<string, unknown>;
     const db = readDb();
